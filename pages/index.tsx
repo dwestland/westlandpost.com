@@ -1,13 +1,14 @@
 import React from 'react'
+
 import Image from 'next/image'
 import Layout from '@/components/Layout'
 
-const HomePage = () => (
+const TwoColumnPage = () => (
   <Layout title="Document" description="Document description">
-    <main>
+    <main className="two-column">
       <section>
-        <h1>Welcome to App</h1>
-        <h3>Section</h3>
+        <h1>Westland Post</h1>
+        <h3>How AI is impacting tech, the arts and mankind</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           obcaecati quam commodi perspiciatis aut sequi, corporis numquam
@@ -15,16 +16,6 @@ const HomePage = () => (
           delectus magnam. Excepturi, esse suscipit facere dolore deleniti
           temporibus odit inventore, beatae possimus quae placeat quasi
         </p>
-        <Image
-          src="/images/ibm.jpg"
-          style={{
-            maxWidth: '600px',
-            maxHeight: '400px',
-          }}
-          width={600}
-          height={400}
-          alt="ENIAC"
-        />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
           obcaecati quam commodi perspiciatis aut sequi, corporis numquam
@@ -33,8 +24,23 @@ const HomePage = () => (
           temporibus odit inventore, beatae possimus quae placeat quasi
         </p>
       </section>
+      <aside>
+        <h3>Image Gallery</h3>
+        <Image
+          src="/images/grace-hopper.jpg"
+          width={600}
+          height={400}
+          alt="Grace Hopper"
+        />
+        <br />
+        <br />
+        <Image src="/images/eniac.jpg" width={600} height={400} alt="ENIAC" />
+        <br />
+        <br />
+        <Image src="/images/ibm.jpg" width={600} height={400} alt="IBM" />
+      </aside>
     </main>
   </Layout>
 )
 
-export default HomePage
+export default TwoColumnPage
