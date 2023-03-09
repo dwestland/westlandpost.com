@@ -1,7 +1,7 @@
 /* eslint-disable arrow-body-style */
 import React, { FC } from 'react'
 import Head from 'next/head'
-// import SignInSignOut from '@/components/SignInSignOut'
+import SignInSignOut from '@/components/SignInSignOut'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Header from './Header'
@@ -25,7 +25,10 @@ const Layout: FC<LayoutProps> = ({
       </Head>
       <Header />
       <Navbar />
-      {/* <SignInSignOut /> */}
+      <SignInSignOut />
+      {/* <div style={{ textAlign: 'center', color: 'crimson' }}>
+        <h4>{window.location.href}</h4>
+      </div> */}
       {children}
       <Footer />
     </div>

@@ -5,6 +5,7 @@ import Layout from '@/components/Layout'
 import contentData from '@/common/content-data'
 
 const TwoColumnPage = () => {
+  const imageUrlRoot = '/content-images/'
   const sendinblueApiKey = 'dtjvq2N0k79QpsRC'
   console.log('%c boom ', 'background: red; color: white')
 
@@ -14,7 +15,7 @@ const TwoColumnPage = () => {
         <div className="newsletter">
           <a href={article.link} className="newsletter-content">
             <Image
-              src={article.image}
+              src={imageUrlRoot + article.image}
               width={600}
               height={400}
               alt="More than 200 books in Amazon's bookstore have ChatGPT listed as an author or coauthor"
@@ -37,16 +38,17 @@ const TwoColumnPage = () => {
       </div>
       <main className="two-column">
         {/* <iframe src="https://www.westland.net" width="100%"></iframe> */}
-        {/* <iframe
-          width="540"
-          height="305"
-          src="https://26466fad.sibforms.com/serve/MUIEAK5CWenSsLC09gmZhi5Z-3TqvrSW1sUd7vEbSInlbipBoSHSK0B-MQoyJUtv8dYjeZD9U8BopaZFWNS_RC7htR_Pot3YikfPXMMfZhBThYQ1PLEUtVslhcEJZqHDPS9BIpnwAsIH7C3L42YPWiiG1IJN8dP6BgwvoV4qXh_VLfpP8b9efKLYQbDUSDSGY9dswcAKlhDCp7TQ"
-
-          scrolling="auto"
-          allowfullscreen
-          // style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
-        ></iframe> */}
         <section>
+          <div className="sendinblue-sign-up">
+            <iframe
+              width="540"
+              height="420"
+              src="https://26466fad.sibforms.com/serve/MUIEAK5CWenSsLC09gmZhi5Z-3TqvrSW1sUd7vEbSInlbipBoSHSK0B-MQoyJUtv8dYjeZD9U8BopaZFWNS_RC7htR_Pot3YikfPXMMfZhBThYQ1PLEUtVslhcEJZqHDPS9BIpnwAsIH7C3L42YPWiiG1IJN8dP6BgwvoV4qXh_VLfpP8b9efKLYQbDUSDSGY9dswcAKlhDCp7TQ"
+              scrolling="auto"
+              allowFullScreen
+              // style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
+            ></iframe>
+          </div>
           <h3>Previous Posts</h3>
           {articles}
         </section>
