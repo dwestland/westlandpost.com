@@ -6,6 +6,7 @@ const Footer = () => {
 
   return (
     <footer className={styles.footer}>
+      <p style={{ fontSize: 'x-large' }}>AI was used to create this website</p>
       <p>Copyright &copy; {year}</p>
     </footer>
   )
