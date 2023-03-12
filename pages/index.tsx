@@ -1,19 +1,28 @@
-import React from 'react'
-import Link from 'next/link'
+import React, { useState } from 'react'
 import Image from 'next/image'
 import Layout from '@/components/Layout'
 import contentData from '@/common/content-data'
+import dayjs from 'dayjs'
+// import { AnyAaaaRecord } from 'dns'
 
-const TwoColumnPage = () => {
+const HomePage = () => {
+  const [titleDate, setTitleDate] = React.useState('')
   const imageUrlRoot = '/content-images/'
   const sendinblueApiKey = 'dtjvq2N0k79QpsRC'
   console.log('%c boom ', 'background: red; color: white')
 
   const articles = contentData.map((article) => {
+    // let titleDate = ''
+    if (article.datePublished !== titleDate) {
+      setTitleDate(article.datePublished)
+      console.log('%c titleDate ', 'background: red; color: white', titleDate)
+      return <h3>{dayjs(article.datePublished).format('MMM D, YYYY')}</h3>
+    }
     return (
       <div key={article.title}>
         <div className="newsletter">
           <a href={article.link} className="newsletter-content">
+            <p>{dayjs(titleDate).format('MMM D, YYYY')}</p>
             <Image
               src={imageUrlRoot + article.image}
               width={600}
@@ -37,6 +46,7 @@ const TwoColumnPage = () => {
         <h2>Westland Post</h2>
       </div>
       <main className="two-column">
+        <h1>{dayjs('2023-03-03T15:00:00.000Z').format('MMM D, YYYY')}</h1>
         {/* <iframe src="https://www.westland.net" width="100%"></iframe> */}
         <section>
           <div className="sendinblue-sign-up">
@@ -49,7 +59,7 @@ const TwoColumnPage = () => {
               // style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
             ></iframe>
           </div>
-          <h3>Previous Posts</h3>
+          <h3>Previous Post</h3>
           {articles}
         </section>
 
@@ -72,4 +82,4 @@ const TwoColumnPage = () => {
     </Layout>
   )
 }
-export default TwoColumnPage
+export default HomePage
