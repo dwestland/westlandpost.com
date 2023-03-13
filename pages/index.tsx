@@ -1,28 +1,32 @@
-import React, { useState } from 'react'
+import React, { useRef } from 'react'
 import Image from 'next/image'
 import Layout from '@/components/Layout'
 import contentData from '@/common/content-data'
 import dayjs from 'dayjs'
-// import { AnyAaaaRecord } from 'dns'
 
-const HomePage = () => {
-  const [titleDate, setTitleDate] = React.useState('')
+const TwoColumnPage = () => {
+  const currentDateTitle = useRef('')
   const imageUrlRoot = '/content-images/'
   const sendinblueApiKey = 'dtjvq2N0k79QpsRC'
-  console.log('%c boom ', 'background: red; color: white')
+
+  contentData.sort((a, b) => {
+    return (
+      new Date(b.datePublished).getTime() - new Date(a.datePublished).getTime()
+    )
+  })
 
   const articles = contentData.map((article) => {
-    // let titleDate = ''
-    if (article.datePublished !== titleDate) {
-      setTitleDate(article.datePublished)
-      console.log('%c titleDate ', 'background: red; color: white', titleDate)
-      return <h3>{dayjs(article.datePublished).format('MMM D, YYYY')}</h3>
+    let dateTitle = ''
+    if (article.datePublished !== currentDateTitle.current) {
+      dateTitle = dayjs(article.datePublished).format('MMM D, YYYY')
+      currentDateTitle.current = article.datePublished
     }
+
     return (
       <div key={article.title}>
         <div className="newsletter">
           <a href={article.link} className="newsletter-content">
-            <p>{dayjs(titleDate).format('MMM D, YYYY')}</p>
+            <h3>{dateTitle}</h3>
             <Image
               src={imageUrlRoot + article.image}
               width={600}
@@ -46,8 +50,6 @@ const HomePage = () => {
         <h2>Westland Post</h2>
       </div>
       <main className="two-column">
-        <h1>{dayjs('2023-03-03T15:00:00.000Z').format('MMM D, YYYY')}</h1>
-        {/* <iframe src="https://www.westland.net" width="100%"></iframe> */}
         <section>
           <div className="sendinblue-sign-up">
             <iframe
@@ -82,4 +84,4 @@ const HomePage = () => {
     </Layout>
   )
 }
-export default HomePage
+export default TwoColumnPage

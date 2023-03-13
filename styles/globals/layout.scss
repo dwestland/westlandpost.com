@@ -32,6 +32,7 @@ main {
     width: 75%;
   }
   aside {
+    display: none;
     padding: 0 20px 0 0;
     margin-top: 460px;
     width: 25%;
@@ -182,6 +183,10 @@ main {
 .newsletter {
   margin: 60px auto;
   max-width: 600px;
+
+  h3 {
+    font-size: 3rem;
+  }
 
   a {
     color: inherit;
