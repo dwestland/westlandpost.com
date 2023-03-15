@@ -16,6 +16,7 @@ const TwoColumnPage = () => {
   })
 
   const articles = contentData.map((article) => {
+    // Create a date title if the date is different from the previous article
     let dateTitle = ''
     if (article.datePublished !== currentDateTitle.current) {
       dateTitle = dayjs(article.datePublished).format('MMM D, YYYY')
@@ -25,7 +26,7 @@ const TwoColumnPage = () => {
     return (
       <div key={article.title}>
         <div className="newsletter">
-          <a href={article.link} className="newsletter-content">
+          <a href={article.link} className="newsletter-content" target="_blank">
             <h3>{dateTitle}</h3>
             <Image
               src={imageUrlRoot + article.image}
@@ -36,7 +37,13 @@ const TwoColumnPage = () => {
             <h4 className="title">{article.title}</h4>
 
             <p className="attribution">{article.attribution}</p>
-            <p className="content-body">{article.body}</p>
+
+            <div
+              className="content-body"
+              dangerouslySetInnerHTML={{ __html: article.body }}
+            />
+
+            {/* <p className="content-body">{article.body}</p> */}
           </a>
         </div>
       </div>
