@@ -143,10 +143,102 @@ const contentData = [
     datePublished: '2023-03-13T15:00:00.000Z',
     link: 'https://www.axios.com/2023/03/07/chatgpt-teachers-students-schools',
   },
+  // ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+    // image: 'xxx.jpg',
+    title: 'xxx',
+    attribution: 'xxx',
+    body: 'xxx',
+    link: 'xxx',
+    datePublished: '2023-03-20T15:00:00.000Z',
+  },
 ]
+
+// {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-20T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+//   {
+//     image: 'xxx.jpg',
+//     title: 'xxx',
+//     attribution: 'xxx',
+//     body: 'xxx',
+//     link: 'xxx',
+//     datePublished: '2023-03-18T15:00:00.000Z',
+//   },
+// ]
 
 export default contentData
 
+// const newData = [
 //   {
 //     image: 'xxx.jpg',
 //     title: 'xxx',
@@ -156,3 +248,4 @@ export default contentData
 //     datePublished: 999,
 //   },
 // <b style="color: crimson;">VIDEO:</b>
+// ]

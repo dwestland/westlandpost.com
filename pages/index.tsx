@@ -6,7 +6,7 @@ import dayjs from 'dayjs'
 
 const TwoColumnPage = () => {
   const currentDateTitle = useRef('')
-  const imageUrlRoot = '/content-images/'
+  const imageUrlRoot = 'https://img.westlandpost.com/article-images/'
   const sendinblueApiKey = 'dtjvq2N0k79QpsRC'
 
   contentData.sort((a, b) => {
