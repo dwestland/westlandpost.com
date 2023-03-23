@@ -35,15 +35,11 @@ const TwoColumnPage = () => {
               alt="Stock image"
             />
             <h4 className="title">{article.title}</h4>
-
             <p className="attribution">{article.attribution}</p>
-
             <div
               className="content-body"
               dangerouslySetInnerHTML={{ __html: article.body }}
             />
-
-            {/* <p className="content-body">{article.body}</p> */}
           </a>
         </div>
       </div>
