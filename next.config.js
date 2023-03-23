@@ -1,8 +1,8 @@
 module.exports = {
   reactStrictMode: true,
   output: 'standalone',
-  // images: {
-  //   domains: ['localhost', 'next-auth-prisma-blog.westland.net'],
-  // },
+  images: {
+    domains: ['localhost', 'img.westlandpost.com'],
+  },
   // crossOrigin: 'anonymous',
 }

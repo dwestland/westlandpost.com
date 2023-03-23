@@ -32,7 +32,7 @@ const TwoColumnPage = () => {
               src={imageUrlRoot + article.image}
               width={600}
               height={400}
-              alt="More than 200 books in Amazon's bookstore have ChatGPT listed as an author or coauthor"
+              alt="Stock image"
             />
             <h4 className="title">{article.title}</h4>
 
@@ -73,6 +73,7 @@ const TwoColumnPage = () => {
         </section>
 
         <aside>
+          {/* CSS display: none */}
           <h3>Image Gallery</h3>
           <Image
             src="/images/grace-hopper.jpg"
