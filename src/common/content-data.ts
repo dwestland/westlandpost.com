@@ -212,6 +212,83 @@ const contentData = [
     link: 'https://www.youtube.com/watch?v=O8mBDFjGec0',
     datePublished: '2023-03-23T15:00:00.000Z',
   },
+  {
+    image: 'adobe-firefly.jpg',
+    title:
+      'Adobe launches Firefly generative A.I., which lets users type to edit images',
+    attribution: 'CNBC - Rohan Goswami',
+    body: "Adobe has launched Firefly, a generative AI tool that lets users edit images with typed commands. Firefly will generate content brushes, variations on existing images and could potentially transform photos and videos based on user prompts. Text-effect tools will be the first available model. The product will integrate with Adobe's existing suite of products and launch as a public beta.",
+    link: 'https://www.cnbc.com/2023/03/21/adobe-firefly-generative-ai-lets-you-type-to-edit-images.html',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'leivis-ai-models.jpg',
+    title: "Levi's Goes Virtual with AI-Generated Models",
+    attribution: 'Screen Rant - Cheyenne MacDonald',
+    body: "Levi's has partnered with Lalaland.ai to introduce AI-generated fashion models to its website and app in the name of 'diversity' and 'inclusivity.' While some may question the need for AI-generated models when hiring more human models could have the same effect, the move may signal wider adoption of the technology in the fashion industry. Lalaland.ai has already worked with Calvin Klein and Tommy Hilfiger, and its avatars are customizable, with different poses, emotions, and racial backgrounds available. Levi's said it plans to test the avatars later this year and will 'supplement' rather than replace human models.",
+    link: 'https://screenrant.com/levis-lalaland-ai-avatars-fashion-models/',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'metahuman.jpg',
+    title:
+      'MetaHuman - Real-Time Facial Model Animation Demo | State of Unreal 2023',
+    attribution: 'YouTube - IGN',
+    body: "Video Unreal Engine 5's MetaHuman creates new fully animated facial models in real time with just a phone camera. MetaHuman make realistic human characters in minutes. Easy and fun, physically plausible, hugely variable, and real-time ready. MetaHumans can run in real time on high-end PCs with RTX graphics cards, and come with a full facial and body rig, ready to animate in Unreal Engine. Dozens of ready-made MetaHumans are also available to download.",
+    link: 'https://www.youtube.com/watch?v=pnaKyc3mQVk',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: '100-million-bing-users.jpg',
+    title:
+      'Microsoft Bing hits 100 million active users in bid to grab share from Google',
+    attribution: 'The Verge - Tom Warren',
+    body: "Microsoft's Bing search engine has hit 100 million daily active users, with the new Bing Chat feature driving growth. The tool is powered by AI and appears to have been a major factor in luring users to the platform. Google has more than one billion daily active users, highlighting the challenge Microsoft still faces in capturing more of the search market. The company has been pushing Bing through its Edge browser, Windows updates and other prompts, while it aims to boost revenues from the digital ad market.",
+    link: 'https://www.theverge.com/2023/3/9/23631912/microsoft-bing-100-million-daily-active-users-milestone',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'copilot-x-code-report.jpg',
+    title: 'Game over… GitHub Copilot X announced',
+    attribution: 'YouTube - Fireship',
+    body: "Microsoft-owned GitHub has overhauled its Copilot AI coding assistant to integrate OpenAI's GPT-4 model and bring chat and voice support to its AI pair programmer, enabling the chatbot to recognize and explain code and recommend changes and fix bugs. Copilot X will be initially available inside Microsoft’s Visual Studio and Visual Studio Code apps, with GitHub planning to expand it to other integrated development environments in the future. Copilot will also be available for command line interfaces.",
+    link: 'https://www.youtube.com/watch?v=q1HZj40ZQrM',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'microsoft-layoff.jpg',
+    title: 'Microsoft lays off an ethical AI team as it doubles down on OpenAI',
+    attribution: 'TechCrunch - Rebecca Bellan',
+    body: "Microsoft has laid off its entire ethics and society team, responsible for ensuring AI innovation leads to ethical, responsible and sustainable outcomes, amid a recent wave of layoffs affecting 10,000 employees. The move has raised questions over Microsoft's commitment to responsible AI principles as it invests billions in its partnership with OpenAI and revamps its Bing search engine and Edge web browser. While the Office of Responsible AI remains, former employees have suggested the company is more focused on getting its AI products to market quickly than on responsible, long-term thinking.",
+    link: 'https://techcrunch.com/2023/03/13/microsoft-lays-off-an-ethical-ai-team-as-it-doubles-down-on-openai/',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'google-ai-medical-exam-expert.jpg',
+    title:
+      "Google AI Performs at 'Expert' Level on U.S. Medical Licensing Exam",
+    attribution: 'MedPage Today - Michael DePeau',
+    body: 'Med-PaLM 2, the latest version of Google\'s medical AI, has been found to answer health questions with high accuracy. It has an accuracy rate of over 85% and consistently performs at an "expert" level on medical exam questions. While the potential for the technology is significant, Google acknowledges the importance of responsible and ethical innovation given the sensitive nature of medical information.',
+    link: 'https://www.medpagetoday.com/special-reports/exclusives/103522',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'us-china-ai-arms-race.jpg',
+    title:
+      'ChatGPT has thrown gasoline on fears of a U.S.-China arms race on AI',
+    attribution: 'NBC News - David Ingram',
+    body: 'The US and China are both engaged in a technological race to develop next-gen artificial intelligence (AI), with experts warning the stakes are high. From cyber attacks to propaganda machines, the applications of AI in geopolitical tools could help in the fight for global supremacy. One casualty of the race so far has been the exchange of technology across borders, and China has told its companies not to offer access to ChatGPT services. To maintain an edge, the US will need to look at several essential components, such as computing power with microchips, advanced algorithms, large amounts of data and talented engineers.',
+    link: 'https://www.nbcnews.com/tech/innovation/chatgpt-intensified-fears-us-china-ai-arms-race-rcna71804',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
+  {
+    image: 'ai-in-newsroom.jpg',
+    title: 'The End of Journalism as We Know It? The Rise of AI in Newsrooms',
+    attribution: 'TNW - Thomas Macaulay',
+    body: 'Media outlets are increasingly using generative AI in journalism, causing concern among human journalists about job security. Reach, the owner of Britain’s Daily Mirror and the Express, is the latest media brand to add bots to the newsroom, posting several AI-written articles on its local news site In Your Area. Other outlets, such as The Associated Press, MSN, CNET and BuzzFeed, have also experimented with automation. While AI can enhance certain aspects of reporting, including personalizing content, it still produces errors and lacks the flair and reporting of human journalists.',
+    link: 'https://thenextweb.com/news/how-media-outlets-are-using-generative-ai-in-journalism',
+    datePublished: '2023-03-27T15:00:00.000Z',
+  },
 ]
 
 export default contentData
