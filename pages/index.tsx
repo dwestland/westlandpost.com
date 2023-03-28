@@ -47,7 +47,10 @@ const TwoColumnPage = () => {
   })
 
   return (
-    <Layout title="Document" description="Document description">
+    <Layout
+      title="Westland Post - AI Newsletter"
+      description="How AI is impacting tech, the arts and mankind"
+    >
       <div className="home-heading">
         <h1>How AI is impacting tech, the arts and mankind</h1>
         <h2>Westland Post</h2>

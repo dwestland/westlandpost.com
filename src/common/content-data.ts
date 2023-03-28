@@ -234,7 +234,7 @@ const contentData = [
     title:
       'MetaHuman - Real-Time Facial Model Animation Demo | State of Unreal 2023',
     attribution: 'YouTube - IGN',
-    body: "Video Unreal Engine 5's MetaHuman creates new fully animated facial models in real time with just a phone camera. MetaHuman make realistic human characters in minutes. Easy and fun, physically plausible, hugely variable, and real-time ready. MetaHumans can run in real time on high-end PCs with RTX graphics cards, and come with a full facial and body rig, ready to animate in Unreal Engine. Dozens of ready-made MetaHumans are also available to download.",
+    body: '<b style="color: crimson;">VIDEO:</b> Unreal Engine 5\'s MetaHuman creates new fully animated facial models in real time with just a phone camera. MetaHuman make realistic human characters in minutes. Easy and fun, physically plausible, hugely variable, and real-time ready. MetaHumans can run in real time on high-end PCs with RTX graphics cards, and come with a full facial and body rig, ready to animate in Unreal Engine. Dozens of ready-made MetaHumans are also available to download.',
     link: 'https://www.youtube.com/watch?v=pnaKyc3mQVk',
     datePublished: '2023-03-27T15:00:00.000Z',
   },
@@ -251,7 +251,7 @@ const contentData = [
     image: 'copilot-x-code-report.jpg',
     title: 'Game over… GitHub Copilot X announced',
     attribution: 'YouTube - Fireship',
-    body: "Microsoft-owned GitHub has overhauled its Copilot AI coding assistant to integrate OpenAI's GPT-4 model and bring chat and voice support to its AI pair programmer, enabling the chatbot to recognize and explain code and recommend changes and fix bugs. Copilot X will be initially available inside Microsoft’s Visual Studio and Visual Studio Code apps, with GitHub planning to expand it to other integrated development environments in the future. Copilot will also be available for command line interfaces.",
+    body: '<b style="color: crimson;">VIDEO:</b> Microsoft-owned GitHub has overhauled its Copilot AI coding assistant to integrate OpenAI\'s GPT-4 model and bring chat and voice support to its AI pair programmer, enabling the chatbot to recognize and explain code and recommend changes and fix bugs. Copilot X will be initially available inside Microsoft’s Visual Studio and Visual Studio Code apps, with GitHub planning to expand it to other integrated development environments in the future. Copilot will also be available for command line interfaces.',
     link: 'https://www.youtube.com/watch?v=q1HZj40ZQrM',
     datePublished: '2023-03-27T15:00:00.000Z',
   },
