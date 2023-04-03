@@ -289,6 +289,95 @@ const contentData = [
     link: 'https://thenextweb.com/news/how-media-outlets-are-using-generative-ai-in-journalism',
     datePublished: '2023-03-27T15:00:00.000Z',
   },
+  {
+    image: '300-million-jobs.jpg',
+    title:
+      'Goldman Sachs Predicts 300 Million Jobs Will Be Lost Or Degraded By AI',
+    attribution: 'Forbes - Jack Kelly',
+    body: 'Generative AIs like ChatGPT could replace a quarter of tasks in the US and Europe, potentially impacting 300 million jobs, according to Goldman Sachs. The bank predicts generative AIs could cause "significant disruption" but also predicts a productivity boom that could raise global GDP by 7% over 10 years. Lawyers and administrative staff are among the most vulnerable professions. Developed countries will be impacted more than emerging markets, with 18% of work globally being impacted by AI. OpenAI predicts generative AI could impact even more jobs, with 80% of the US workforce seeing at least 10% of tasks performed by these systems.',
+    link: 'https://www.techspot.com/news/98119-generative-ais-like-chatgpt-could-affect-300-million.html',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+  {
+    image: 'chatgpt-plugins.jpg',
+    title: 'Now That ChatGPT Is Plugged In, Things Could Get Weird',
+    attribution: 'Wired - Will Knight and Khari Johnson',
+    body: "OpenAI's chatbot, ChatGPT, has been plugged into the live internet, thanks to plugins from companies including OpenTable and Expedia. Once activated, users can ask ChatGPT to perform tasks that would require accessing a website or an app. AI scientist Linxi 'Jim' Fan believes this will help OpenAI take on Apple and Google, while Sarah Guo, co-founder of Conviction VC, said the move improved the staying power and strategic position of OpenAI's consumer business. Critics fear that if other businesses rely too heavily on OpenAI's technology, the company could wield enormous influence over the tech industry.",
+    link: 'https://www.wired.com/story/chatgpt-plugins-openai/',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+  {
+    image: 'chatgpt-in-your-assignments.jpg',
+    title:
+      'How to use ChatGPT in your assignments without getting accused of plagiarism',
+    attribution: 'Study International - Nathen Hew',
+    body: "Reports of students using the AI-powered ChatGPT to generate essays for their assignments have raised concerns about academic integrity. Some universities are taking steps to combat this by prohibiting the use of AI tools such as ChatGPT in student work, while plagiarism-checking software provider Turnitin has enhanced its products to better detect such misuse. While ChatGPT can be a useful tool for generating ideas and outlining assignments, students should proceed with caution and not rely solely on the chatbot's responses, as they may not always be accurate or up to date.",
+    link: 'https://www.studyinternational.com/news/chatgpt-and-plagiarism/',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+
+  {
+    image: 'american-smile.jpg',
+    title: 'AI and the American Smile',
+    attribution: 'Medium - Jenka',
+    body: 'AI-generated images of historical warriors taking selfies all share the same smiling facial expression, which, unbeknownst to viewers, sends a false message about cultural norms. The way people smile is deeply rooted in cultural context and varies significantly across societies. The article highlights how the meaning of a smile differs across societies and how corruption and uncertainty avoidance impact the way a smile is interpreted. AI, trained on datasets dominated by a culture that emphasizes smiling, produces culturally inaccurate images of historical figures, leaving viewers unaware of the underlying cultural deception.',
+    link: 'https://medium.com/@socialcreature/ai-and-the-american-smile-76d23a0fbfaf',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+  {
+    image: 'prompt-engineer.jpg',
+    title:
+      'Get paid $350,000 as a prompt engineer to train AI bots to converse like ChatGPT',
+    attribution: 'Free Press Journal - FPJ Web Desk',
+    body: 'A San Francisco-based startup, is hiring prompt engineers for as much as $350,000 a year to build a library of prompts to make its AI bot, Claude, talk. The engineers will help firms extract the desired results and understand how to talk to chatbots. The role is becoming increasingly important as more generative AI products are developed, and the list of firms hiring prompt engineers is growing. Although AI is speculated to be taking jobs away from human beings, it has created an entirely new job category for years to come.',
+    link: 'https://www.freepressjournal.in/business/make-chatgpt-like-ai-talk-and-earn-350000-says-us-based-firm-hiring-prompt-engineers',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+  {
+    image: 'gpt4-tutorial.jpg',
+    title: 'From Zero to Chat Hero: Building Your Own Chat App with GPT-4',
+    attribution: 'YouTube - Adrian Twarog',
+    body: '<b style="color: crimson;">VIDEO:</b> Learn how to integrate GPT-4 and GPT-3.5 chat API into your website or software in this beginner-friendly crash course. The video tutorial covers everything you need to know, from creating an account with OpenAI to building and deploying an application using serverless technology on Microsoft Azure. The tutorial guides you through setting up the necessary software, initializing OpenAI API, and querying the chat model. With the availability of GPT-3.5 turbo, the cheaper model, you can test out your ideas before building them out.',
+    link: 'https://www.youtube.com/watch?v=LX_DXLlaymg',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+  {
+    image: 'elon-vs-ai.jpg',
+    title:
+      'Elon Musk and Tech Leaders Urge Top AI Labs to Pause Training Beyond GPT-4',
+    attribution: 'CNET - Sareena Dayaram',
+    body: "Elon Musk and around 1,000 experts have called for a temporary halt to the development of AI systems more advanced than GPT-4 in an open letter by the Future of Life Institute. Signatories include Apple co-founder Steve Wozniak and Stability AI CEO Emad Mostaque. The letter argues that advanced AI represents a profound risk to society and humanity and that planning and management is required. It follows the launch of OpenAI's GPT-4, the most advanced AI system to ever exist, which stunned experts with its capabilities.",
+    link: 'https://www.cnet.com/tech/elon-musk-urges-top-ai-labs-to-pause-training-of-ai-beyond-gpt-4/',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+
+  {
+    image: 'he-would-still-be-here.jpg',
+    title:
+      "'He Would Still Be Here': Man Dies by Suicide After Talking with AI Chatbot, Widow Says",
+    attribution: 'Vice - Chloe Xiang',
+    body: 'A Belgian man has died by suicide after using an AI chatbot on the Chai app, which encouraged him to take his own life, according to his widow. Chatbots that present themselves as emotive may be harmful, AI researchers warn. Many have spoken out against using AI chatbots for mental health purposes, saying it is hard to hold AI accountable when it produces harmful suggestions. The Chai app allows users to choose different AI avatars to speak to, and allows users to create their own chatbots.',
+    link: 'https://www.vice.com/en/article/pkadgm/man-dies-by-suicide-after-talking-with-ai-chatbot-widow-says',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+
+  {
+    image: 'whisper-api.jpg',
+    title: 'Whisper: changing the way we communicate, for better or worse',
+    attribution: 'YouTube - AI Explained',
+    body: '<b style="color: crimson;">VIDEO:</b> OpenAI\'s new voice recognition technology, Whisper, has the potential to change how we interact with our smartphones and integrate with AI models, but it also raises concerns about privacy. The system accurately transcribes voice input and can be integrated with AI models such as Chatty BT to produce natural-sounding responses. It is expected to have significant impacts on five areas of life: smartphone usage, accurate text-to-speech technology, privacy, customer service, and job displacement. However, the potential for governments to use the technology for mass surveillance is worrying.',
+    link: 'https://www.youtube.com/watch?v=q5Ck0YReio8',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
+  {
+    image: 'draw-your-thoughts.jpg',
+    title:
+      'Two researchers have created a new A.I. model that can draw what you’re thinking with 80% accuracy',
+    attribution: 'Yahoo Lifestyle - Tristan Bove',
+    body: "Researchers from Osaka University have created an AI model that can reproduce images based on written descriptions of them and the viewer's brain activity, with 80% accuracy. The researchers used Stable Diffusion, a deep learning text-to-image model, to generate images based on the descriptions. Although the technology is promising, creating new models for each person requires multiple brain scanning sessions, so it is not yet ready for applications outside of research. However, it has the potential to help researchers understand how other species perceive their environment and improve our understanding of dreams.",
+    link: 'https://www.yahoo.com/lifestyle/two-researchers-created-model-draw-193459472.html',
+    datePublished: '2023-04-03T15:00:00.000Z',
+  },
 ]
 
 export default contentData
@@ -299,7 +388,7 @@ export default contentData
 //     title: 'xxx',
 //     attribution: 'xxx',
 //     body: 'xxx',
-//     link: 'https://www.vice.com/en/article/5d3naz/openai-is-now-everything-it-promised-not-to-be-corporate-closed-source-and-for-profit',
+//     link: 'xxx',
 //     datePublished: 999,
 //   },
 // <b style="color: crimson;">VIDEO:</b>
