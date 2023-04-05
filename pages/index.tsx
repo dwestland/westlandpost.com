@@ -67,7 +67,7 @@ const TwoColumnPage = () => {
               // style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
             ></iframe>
           </div>
-          <h3>Previous Post</h3>
+          <h3>Previous Posts</h3>
           {articles}
         </section>
 
