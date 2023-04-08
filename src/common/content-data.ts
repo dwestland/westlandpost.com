@@ -169,15 +169,15 @@ const contentData = [
     link: 'https://www.theverge.com/2023/3/8/23629362/meta-ai-language-model-llama-leak-online-misuse',
     datePublished: '2023-03-23T15:00:00.000Z',
   },
-  {
-    image: 'bing.jpg',
-    title:
-      'Microsoft Bing hits 100 million active users in bid to grab share from Google',
-    attribution: 'The Verge - Tom Warren',
-    body: "Microsoft's Bing search engine has reached 100 million daily active users, boosted by the AI-powered Bing Chat feature and Microsoft Edge default settings. Around a third of Bing Chat testers were new to Bing, and on average, there were roughly three chats per session. Microsoft has been aggressively promoting Bing through its updates and even prompts users to avoid downloading Google Chrome. The growth in Bing's daily active users is part of Microsoft's plan to gain market share from Google, with each one-point gain in search advertising market share representing a $2 billion revenue opportunity.",
-    link: 'https://www.theverge.com/2023/3/9/23631912/microsoft-bing-100-million-daily-active-users-milestone',
-    datePublished: '2023-03-23T15:00:00.000Z',
-  },
+  // {
+  //   image: 'bing.jpg',
+  //   title:
+  //     'Microsoft Bing hits 100 million active users in bid to grab share from Google',
+  //   attribution: 'The Verge - Tom Warren',
+  //   body: "xxxMicrosoft's Bing search engine has reached 100 million daily active users, boosted by the AI-powered Bing Chat feature and Microsoft Edge default settings. Around a third of Bing Chat testers were new to Bing, and on average, there were roughly three chats per session. Microsoft has been aggressively promoting Bing through its updates and even prompts users to avoid downloading Google Chrome. The growth in Bing's daily active users is part of Microsoft's plan to gain market share from Google, with each one-point gain in search advertising market share representing a $2 billion revenue opportunity.",
+  //   link: 'https://www.theverge.com/2023/3/9/23631912/microsoft-bing-100-million-daily-active-users-milestone',
+  //   datePublished: '2023-03-23T15:00:00.000Z',
+  // },
   {
     image: 'nvidia-ai-video.jpg',
     title: "NVIDIA's New AI: Better AI Videos Are Here!",
@@ -377,6 +377,74 @@ const contentData = [
     body: "Researchers from Osaka University have created an AI model that can reproduce images based on written descriptions of them and the viewer's brain activity, with 80% accuracy. The researchers used Stable Diffusion, a deep learning text-to-image model, to generate images based on the descriptions. Although the technology is promising, creating new models for each person requires multiple brain scanning sessions, so it is not yet ready for applications outside of research. However, it has the potential to help researchers understand how other species perceive their environment and improve our understanding of dreams.",
     link: 'https://www.yahoo.com/lifestyle/two-researchers-created-model-draw-193459472.html',
     datePublished: '2023-04-03T15:00:00.000Z',
+  },
+
+  {
+    image: 'clearview.jpg',
+    title:
+      'Clearview AI used nearly 1 Million times by US police, it tells the BBC',
+    attribution: 'BBC - James Clayton & Ben Derico',
+    body: "Facial recognition company, Clearview AI, has revealed to the BBC that US police have used its technology for nearly one million searches. The company's CEO also disclosed that it has obtained 30 billion images taken from platforms such as Facebook, without users' consent. Critics have said that the police's use of Clearview puts everyone into a \"perpetual police line-up\". The company is banned from selling its services to most US companies, but there is an exemption for police, and the software is used by hundreds of police forces across the US.",
+    link: 'https://www.bbc.com/news/technology-65057011',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+  {
+    image: 'bread-line.jpg',
+    title: "Here's how many U.S. workers ChatGPT says it could replace",
+    attribution: 'CBS News - Megan Cerullo',
+    body: "ChatGPT predicts it could replace 4.8 million American jobs, but the senior VP at Challenger, Gray & Christmas says it should be viewed as a tool to support workers, not a replacement. ChatGPT sees its capabilities in fields including data science, machine learning, and robotics, and predicts it could replace roles centered on language and repetition. However, the technology could create more jobs than it eliminates, with companies hiring prompt engineers to train LLMs to deliver more useful responses to their inputs, a role that tends to pay hundreds of thousands of dollars and doesn't require coding experience.",
+    link: 'https://www.cbsnews.com/news/chatgpt-artificial-intelligence-jobs/',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+  {
+    image: 'boston-university.jpg',
+    title: 'Boston University department unanimously adopts new AI policy',
+    attribution: 'Boston Globe Media - Melissa Ellin',
+    body: "Boston University has adopted a policy for grading work that incorporates artificial intelligence, specifically mentioning OpenAI's language model, ChatGPT. Students will be allowed to use AI on assignments if given permission, and are expected to credit the technology whenever it is used. The policy also places the burden of checking for plagiarism on the students. While the guidance is optional, individual instructors can decide how to incorporate AI into the classroom. Some other universities, including Harvard, Emerson and Northeastern, are reportedly in ongoing conversations about how to approach grading work that incorporates AI.",
+    link: 'https://www.boston.com/news/technology/2023/04/05/bu-department-unanimously-adopts-new-ai-policy/',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+  {
+    image: 'coldfusion.jpg',
+    title: 'AI is Evolving Faster Than You Think',
+    attribution: 'YouTube - ColdFusion',
+    body: '<b style="color: crimson;">VIDEO:</b> OpenAI has released GPT-4, a language model with the capability to recognize images and generate text. Its abilities to solve logic problems and perform deep learning tasks have improved. Microsoft researchers were shocked to discover that it is exhibiting "sparks of artificial general intelligence (AGI)," far surpassing what was predicted for the next 20 years. The article notes the rapid speed of AI progress and the new capabilities of GPT-4, which have left many wondering which industries will remain untouched. The author also highlights the benefits of using AI, such as reducing the time to complete tasks by 50% and increasing output quality by over 20%.',
+    link: 'https://www.youtube.com/watch?v=DIU48QL5Cyk',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+  {
+    image: 'glowing-chips.jpg',
+    title:
+      'Google says its AI supercomputer is faster, greener than Nvidia A100 chip',
+    attribution: 'Yahoo Finance - Stephen Nellis',
+    body: "Google has said its Tensor Processing Unit, or TPU, chip for artificial intelligence models is more power-efficient and faster than rival Nvidia's A100 chip. The company's fourth-generation chip uses custom-developed optical switches to string together more than 4,000 chips into a supercomputer. The models must be split across thousands of chips, which have to work together for weeks to train the model. Google said the new system made it easier to reconfigure connections on the fly, while its PaLM model, the largest language model to date, was trained by splitting it across two of the supercomputers over 50 days.",
+    link: 'https://finance.yahoo.com/news/1-google-says-ai-supercomputer-003509390.html',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+  {
+    image: 'italy-says-no.jpg',
+    title: "Italy's privacy watchdog bans ChatGPT over data breach concerns",
+    attribution: 'Guardian - Dan Milmo and agencies',
+    body: 'Italy\'s privacy regulator has banned OpenAI\'s ChatGPT chatbot, which generates plausible-sounding responses to questions, due to concerns over a data breach and the legality of using personal data to train the system. The regulator cited the "massive collection and processing of personal data" and the chatbot\'s propensity to give inaccurate answers. OpenAI said it was committed to complying with GDPR and other privacy laws, but the move comes after more than 1,000 artificial intelligence experts and backers called for a pause in the creation of "giant" AI systems amid concerns over their control.',
+    link: 'https://www.theguardian.com/technology/2023/mar/31/italy-privacy-watchdog-bans-chatgpt-over-data-breach-concerns',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+
+  {
+    image: 'talking-avatar.jpg',
+    title: 'How to make your own AI talking avatar',
+    attribution: 'YouTube - Mindstorm',
+    body: '<b style="color: crimson;">VIDEO:</b> The Mindstorm Channel on YouTube provides an exciting blend of AI tools for businesses to use, including a digital avatar creator, voice generator, and video creation tool, all mixed to create virtual cooking shows or interactive marketing campaigns. Did Creative Reality Studio lets you create talking avatars that move and sound like real people, 11 Labs Prime Voice AI provides realistic and versatile spoken audio, while Victory.ai helps turn text into engaging videos. Blend all three, and the possibilities become endless.',
+    link: 'https://www.youtube.com/watch?v=kPTZ5cGhzcc',
+    datePublished: '2023-04-10T15:00:00.000Z',
+  },
+  {
+    image: 'trading-floor.jpg',
+    title: 'AI and Robotics ETFs Are Hotter for Traders Than Crypto in 2023',
+    attribution: 'Yahoo Finance - Emily Graffeo',
+    body: 'Investors are showing increasing interest in AI and robotics exchange-traded funds, according to a survey by Brown Brothers Harriman. Some 56% of professional investors plan to add AI- and robotics-focused ETFs to their portfolios this year, up from 46% in 2022, making it the second-most popular thematic strategy, behind internet and technology. ETFs tracking robotics and AI pulled in about $105m in March, compared to outflows from other thematic strategies, including clean energy, electric cars and cloud computing. The $1.7bn Global X Robotics & Artificial Intelligence ETF, which is up 24% year to date, has led the inflows.',
+    link: 'https://finance.yahoo.com/news/ai-robotics-etfs-hotter-traders-135042480.html',
+    datePublished: '2023-04-10T15:00:00.000Z',
   },
 ]
 
