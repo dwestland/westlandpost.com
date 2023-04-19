@@ -446,6 +446,100 @@ const contentData = [
     link: 'https://finance.yahoo.com/news/ai-robotics-etfs-hotter-traders-135042480.html',
     datePublished: '2023-04-10T15:00:00.000Z',
   },
+  {
+    image: 'meta-announces-robots.jpg',
+    title: 'Meta is teaching robots how to move on their own',
+    attribution: 'Yahoo Finance - Daniel Howley',
+    body: "Meta is developing AI systems to enable robots to learn how to navigate the world without needing extensive programming. The social media giant is teaching AI-powered robots how to perform tasks by letting them watch videos of humans performing those tasks, and then having them copy humans. Meta's researchers are creating embodied AI, a type of AI that powers a robot, that would allow robots to handle everything from rescue operations to household chores. The AI system would eventually allow robots to learn how to navigate the world on their own by watching videos of how humans get around.",
+    link: 'https://finance.yahoo.com/news/meta-is-teaching-robots-how-to-move-on-their-own-175757197.html',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'amazon-and-ai.jpg',
+    title:
+      'Amazon jumps into the generative A.I. race with new cloud service and its own large language models',
+    attribution: 'CNBC - Jordan Novet',
+    body: "Amazon Web Services has announced a limited preview of its new cloud service, Bedrock, which offers access to the company's first-party language models, along with models from startups AI21 and Anthropic, and a model for turning text into images from startup Stability AI. Through the service, clients can customize Titan models with their own data, while another model can generate text for blog posts, emails or other documents. The service comes one month after OpenAI announced GPT-4, a large language model that powers ChatGPT, which has been adopted by companies such as Expedia and HubSpot.",
+    link: 'https://www.cnbc.com/2023/04/13/aws-launches-bedrock-generative-ai-service-titan-llms.html',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'search-faces.jpg',
+    title:
+      "Creepy new 'face search engine' lets you find any picture of yourself on the Internet",
+    attribution: 'Daily Star - Ciaran Daly',
+    body: "PimEyes, an AI-powered search app, enables users to find any photo of themselves on the internet using just one picture. For $29.99 per month, the app uses artificial intelligence to scan the internet for faces that match the user's, even finding photographs the user may never have seen before. The app uses machine vision AI to identify people wearing sunglasses or face coverings, then finds photos of them online. PimEyes has 'no controls' that stop users searching for a face that isn't their own, raising major privacy concerns.",
+    link: 'https://www.dailystar.co.uk/tech/news/creepy-new-face-search-engine-27109579',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'ai-voice-scam.jpg',
+    title:
+      "Terrifying new AI scam CLONED teenage girl's voice to call her mother and demand $1million ransom",
+    attribution: 'Daily Mail - Jen Smith',
+    body: "An Arizona mother received a call from an unknown number with her daughter screaming in the background, demanding a $1 million ransom. It turned out her daughter was safe on a ski trip and the voice had been cloned by AI technology. The new AI scam only needs three seconds of a sample to clone a person's voice and weaponize it against their loved ones. The mother is warning other parents of the dangers of this technology and encouraging people to have a family emergency word or question that only they know to validate they are not being scammed with AI.",
+    link: 'https://www.dailymail.co.uk/news/article-11961539/Terrifying-new-AI-scam-used-teen-girls-REAL-voice-call-mother-demand-1million.html',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'vector-databases.jpg',
+    title: 'Vector databases are so hot right now. WTF are they?',
+    attribution: 'YouTube - Fireship',
+    body: '<b style="color: crimson;">VIDEO:</b> Vector databases are the new cool kids on the block for long-term memory in language models like GPT-4, LLaMDA, and LLaMA. Pinecone and Weaviate are popular options that can store machine learning embeddings for integration with tools like ChatGPT. Vector databases are designed for efficient storage and retrieval of high-dimensional vectors, highly scalable, and used for machine learning and spatial applications, enabling a wide range of applications in machine learning, spatial analysis, and beyond.',
+    link: 'https://www.youtube.com/watch?v=klTvEwg3oJ4&t=2s',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'artists-lose-jobs.jpg',
+    title: 'AI is already taking video game illustrators’ jobs in China',
+    attribution: 'Rest of the World - Viola Zhou',
+    body: 'Chinese video game art studios are using AI image generators to produce high-quality artwork, resulting in many illustrators losing their jobs. Breakthroughs in AI image generation have enabled gaming companies to create video game characters, backdrops and promotional materials. Illustrators who used to make 3,000 to 7,000 yuan for every video game poster they drew are now being offered a tenth of their original rate to make small fixes. Artists are crucial to game production, be it for conceptualizing characters or drawing background elements. However, given the high quality of AI-produced artwork, many in the industry are wondering how long they will be able to keep their jobs.',
+    link: 'https://restofworld.org/2023/ai-image-china-video-game-layoffs/',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+
+  {
+    image: 'wonder-studio.jpg',
+    title: "A Hands-On Review of Wonder Studio's Instant AI VFX",
+    attribution: 'YouTube - Mindstorm',
+    body: '<b style="color: crimson;">VIDEO:</b> Wonder Studio, an AI-powered VFX tool with backing from Steven Spielberg, automates complex animations and seamlessly integrates CG characters into live-action scenes, reducing the need for heavy frame-by-frame VFX work. The system automatically detects cuts and tracks the actor throughout the sequence and transfers their performance to the CG character of choice, while leaving the artist with the remaining "subjective" work. Wonder Studio aims to automate 80%-90% of objective VFX work and is adaptable to existing pipelines.',
+    link: 'https://www.youtube.com/watch?v=m7hQupwuXGQ',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'raise-global-gdp.jpg',
+    title: 'Generative AI could raise global GDP by 7%',
+    attribution: 'Goldman Sachs - Staff Writer',
+    body: 'Generative AI breakthroughs could boost global GDP by 7% and productivity growth by 1.5 percentage points over a 10-year period, according to Goldman Sachs Research. However, it could also expose the equivalent of 300 million full-time jobs to automation, with an estimated two-thirds of US occupations exposed to some degree of automation by AI. While most jobs and industries will be complemented rather than substituted by AI, jobs displaced by automation will likely be offset by the creation of new jobs. Advances in AI are expected to have implications for enterprise software, healthcare and financial services industries, according to another report.',
+    link: 'https://www.goldmansachs.com/insights/pages/generative-ai-could-raise-global-gdp-by-7-percent.html',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'alexandr-wang.jpg',
+    title:
+      'Alexandr Wang Became The World’s Youngest Self-Made Billionaire at 25',
+    attribution: 'Wealth of Geeks - Michael Dinich',
+    body: "Alexandr Wang, the co-owner of Scale AI, has become the world's youngest self-made billionaire at the age of 25. Wang dropped out of MIT and started his company, which provides autonomous vehicle companies with machine learning data and has since expanded into various industries. Scale AI secured contracts with the US Air Force, leading to a net worth of just under $1.1 billion for Wang. His success can be attributed to his intellect, timing, and risk-taking, including dropping out of one of the most prestigious schools in the country.",
+    link: 'https://wealthofgeeks.com/alexandr-wang/',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+
+  {
+    image: 'us-ai-jobs.jpg',
+    title: 'These 10 States Have the Most AI Jobs',
+    attribution: 'Gizmodo - Nikki Main',
+    body: 'Despite concerns about robots eventually taking over jobs, the 2023 AI Index Report found that nearly 800,000 AI-related jobs opened in the US last year. The report, based on Stanford University findings, showed areas of the US now seeing a rise in AI jobs, from artificial intelligence engineers to AI directors. Top states include California, New York and Massachusetts. While the top 10 states have an influx of AI jobs, some areas, such as Montana, Wyoming, West Virginia, and Alaska, have substantially lagged behind, with fewer than 1,000 AI-related positions.',
+    link: 'https://gizmodo.com/best-cities-for-ai-prompt-engineer-ai-jobs-chatbot-1850307124',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
+  {
+    image: 'schumer.jpg',
+    title: 'Schumer lays groundwork for Congress to regulate AI',
+    attribution: 'Axios - Andrew Solender, Ashley Gold',
+    body: "Senate Majority Leader Chuck Schumer is leading the congressional effort to regulate artificial intelligence (AI) technology, with the goal of developing regulations that can adapt to the advancement of AI technology and balance the need for security, accountability and transparency with innovation. The proposed regulations would require transparency on who trained the algorithm, the data source, how it arrives at responses and transparent ethical boundaries. The effort comes amid concerns about AI's potential social, economic and security ramifications, and the need to keep up with other countries, particularly China, in developing and shaping AI technology and its rules.",
+    link: 'https://www.axios.com/2023/04/13/congress-regulate-ai-tech',
+    datePublished: '2023-04-17T15:00:00.000Z',
+  },
 ]
 
 export default contentData
