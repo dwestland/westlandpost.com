@@ -1,8 +1,9 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 import Image from 'next/image'
 import Layout from '@/components/Layout'
 import contentData from '@/common/content-data'
 import dayjs from 'dayjs'
+import Pagination from '@/components/Pagination'
 
 const TwoColumnPage = () => {
   const currentDateTitle = useRef('')
@@ -15,7 +16,14 @@ const TwoColumnPage = () => {
     )
   })
 
-  const articles = contentData.map((article) => {
+  // Pagination
+  const [currentPage, setCurrentPage] = useState(1)
+  const articlesPerPage = 10
+  const startIndex = (currentPage - 1) * articlesPerPage
+  const endIndex = startIndex + articlesPerPage
+  const displayedArticles = contentData.slice(startIndex, endIndex)
+
+  const articles = displayedArticles.map((article) => {
     // Create a date title if the date is different from the previous article
     let dateTitle = ''
     if (article.datePublished !== currentDateTitle.current) {
@@ -55,38 +63,35 @@ const TwoColumnPage = () => {
         <h1>How AI is impacting tech, the arts and mankind</h1>
         <h2>Westland Post</h2>
       </div>
-      <main className="two-column">
+      <main>
         <section>
-          <div className="sendinblue-sign-up">
-            <iframe
-              width="540"
-              height="420"
-              src="https://26466fad.sibforms.com/serve/MUIEAK5CWenSsLC09gmZhi5Z-3TqvrSW1sUd7vEbSInlbipBoSHSK0B-MQoyJUtv8dYjeZD9U8BopaZFWNS_RC7htR_Pot3YikfPXMMfZhBThYQ1PLEUtVslhcEJZqHDPS9BIpnwAsIH7C3L42YPWiiG1IJN8dP6BgwvoV4qXh_VLfpP8b9efKLYQbDUSDSGY9dswcAKlhDCp7TQ"
-              scrolling="auto"
-              allowFullScreen
-              // style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
-            ></iframe>
+          {currentPage === 1 && (
+            <div className="sendinblue-sign-up">
+              <iframe
+                width="540"
+                height="420"
+                src="https://26466fad.sibforms.com/serve/MUIEAK5CWenSsLC09gmZhi5Z-3TqvrSW1sUd7vEbSInlbipBoSHSK0B-MQoyJUtv8dYjeZD9U8BopaZFWNS_RC7htR_Pot3YikfPXMMfZhBThYQ1PLEUtVslhcEJZqHDPS9BIpnwAsIH7C3L42YPWiiG1IJN8dP6BgwvoV4qXh_VLfpP8b9efKLYQbDUSDSGY9dswcAKlhDCp7TQ"
+                scrolling="auto"
+                allowFullScreen
+                // style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;"
+              ></iframe>
+            </div>
+          )}
+          <div className="sub-heading">
+            <h3>
+              Previous Posts
+              <br />
+              Page {currentPage}
+            </h3>
           </div>
-          <h3>Previous Posts</h3>
           {articles}
-        </section>
-
-        <aside>
-          {/* CSS display: none */}
-          <h3>Image Gallery</h3>
-          <Image
-            src="/images/grace-hopper.jpg"
-            width={600}
-            height={400}
-            alt="Grace Hopper"
+          <Pagination
+            totalArticles={contentData.length}
+            currentPage={currentPage}
+            onPageChange={setCurrentPage}
+            articlesPerPage={articlesPerPage}
           />
-          <br />
-          <br />
-          <Image src="/images/eniac.jpg" width={600} height={400} alt="ENIAC" />
-          <br />
-          <br />
-          <Image src="/images/ibm.jpg" width={600} height={400} alt="IBM" />
-        </aside>
+        </section>
       </main>
     </Layout>
   )

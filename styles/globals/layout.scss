@@ -165,6 +165,10 @@ main {
   }
 }
 
+.sub-heading {
+  text-align: center;
+}
+
 .sendinblue-sign-up {
   max-width: 540px;
   height: 420px;
@@ -210,6 +214,18 @@ main {
       margin: 5px 0 10px;
     }
   }
+}
+
+@media (max-width: 600px) {
+  .sendinblue-sign-up {
+    height: 520px;
+  }
+}
+
+/* Pagination
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pagination {
+  text-align: center;
 }
 
 /* Dark Mode
