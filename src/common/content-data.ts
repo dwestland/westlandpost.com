@@ -624,6 +624,111 @@ const contentData = [
     link: 'https://www.reuters.com/sports/motor-sports/german-magazine-apologises-schumacher-family-sacks-editor-2023-04-22/',
     datePublished: '2023-04-24T15:00:00.000Z',
   },
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+    image: 'xxx.jpg',
+    title:
+      'Study Finds ChatGPT Outperforms Physicians in High-Quality, Empathetic Answers to Patient Questions',
+    attribution: 'UC San Diego Today - Mika Ono',
+    body: "ChatGPT outshines physicians in delivering high-quality, empathetic answers to patient questions, according to a JAMA Internal Medicine study. While AI won't replace doctors, the research suggests that a collaboration between physicians and technologies like ChatGPT could revolutionize healthcare. The study compared responses from physicians and ChatGPT to real-world health questions, with licensed healthcare professionals preferring ChatGPT's responses 79% of the time. The findings highlight the potential of AI in improving healthcare delivery, easing the burden on physicians, and enhancing patient outcomes. ChatGPT may not replace your doctor, but it could become their trusty sidekick.",
+    link: 'https://today.ucsd.edu/story/study-finds-chatgpt-outperforms-physicians-in-high-quality-empathetic-answers-to-patient-questions',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      'After the Death of BuzzFeed News, Journalists Should Treat AI as an Existential Threat',
+    attribution: 'Gizmodo - Lucas Ropek',
+    body: "BuzzFeed's recent decision to lay off its newsroom staff and focus on AI-generated content should worry journalists. Other media companies, like Insider and CNET, are following a similar path. The rise of generative AI, which uses data-intensive technologies to create human-like text and visuals, is reshaping the digital economy. Executives in the media industry are embracing AI to cut costs and increase efficiency, potentially leading to job losses. While tech moguls may express optimism about the future, for journalists, the reality is that generative AI is a looming threat to their employment.",
+    link: 'https://gizmodo.com/chatgpt-ai-buzzfeed-news-journalism-existential-threat-1849869364',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      "Mark Zuckerberg says Meta wants to 'introduce AI agents to billions of people'",
+    attribution: 'The Verge - Alex Heath',
+    body: "Meta, formerly known as Facebook, aims to bring AI agents to billions of people, according to CEO Mark Zuckerberg. While details remain vague, Zuckerberg mentioned plans to incorporate generative AI into various Meta apps, including WhatsApp, Messenger, Facebook, and Instagram. The company's earnings call revealed impressive financials, with $28.6 billion in revenue for the first quarter of the year. Meta had previously faced delays in building the necessary infrastructure for AI, but Zuckerberg assured investors that they are now caught up and hinted at upcoming generative AI releases in the coming months. Despite the focus on AI, Meta remains committed to the metaverse, as evidenced by the planned launch of the next Quest VR headset.",
+    link: 'https://www.theverge.com/2023/4/26/23699633/mark-zuckerberg-meta-generative-ai-chatbots-instagram-facebook-whatsapp',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title: 'AI might not replace you, but a person who uses AI could',
+    attribution: 'Fortune - Paolo Confino and Amber Bruton',
+    body: 'As AI becomes more prevalent, prompt engineers are poised to play a crucial role in organizations, leveraging generative AI tools like ChatGPT to achieve desired outcomes. While AI will lead to the elimination of certain jobs, it is estimated to create a net gain of 13 million new jobs. Prompt engineers will fill the skills gap in this rapidly growing field, helping companies navigate the AI revolution. By focusing on tasks that lack value or are repeatable, prompt engineers can improve efficiency and enable cross-functional collaboration, ultimately transforming business units and providing a comprehensive perspective.',
+    link: 'https://fortune.com/2023/04/25/artificial-intelligence-ai-replace-humans-prompt-engineers-chatgpt/',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      "'ChatGPT Does 80% Of My Job' — How AI Enables People To Work Second And Third Jobs",
+    attribution: 'Yahoo Finance - Jeannine Mancini',
+    body: "The rise of overemployed workers utilizing AI language models like ChatGPT to handle their job responsibilities has raised concerns about job market impact. Despite potential job automation, some individuals are capitalizing on AI technology to work multiple jobs without detection. Ben, a financial technology marketer, successfully used ChatGPT to take on a second job, even writing cover letters with the AI's assistance. While advancements like GPT-4 make their work easier, workers believe their expertise is still crucial to ensure accurate text generation. The prevalence of covert ChatGPT usage in the workplace is growing, with many professionals discreetly using it to save time.",
+    link: 'https://finance.yahoo.com/news/chatgpt-does-80-job-ai-200626793.html',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      'Meta says time spent on Instagram grew 24% thanks to TikTok-style AI Reel recommendations',
+    attribution: 'TechCrunch - Darrell Etherington',
+    body: 'Meta announced on its Q1 2023 earnings call that time spent on Instagram has increased by over 24% since the introduction of Reels, thanks to AI-powered content recommendations. While Reels are driving engagement, they are currently cannibalizing revenue from Stories and feed-based posts. However, Meta expects Reels to reach revenue neutrality by the end of the year or early 2024. Monetizing Reels poses challenges due to their structural differences from existing Instagram content, but Meta is confident they will eventually become a significant contributor to revenue. In short, Reels are reeling in users but not yet cash.',
+    link: 'https://techcrunch.com/2023/04/26/meta-says-time-spent-on-instagram-grew-24-thanks-to-tiktok-style-ai-reel-recommendations/',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      'OpenAI is testing a version of GPT-4 that can ‘remember’ long conversations',
+    attribution: 'TechCrunch - Kyle Wiggers',
+    body: "OpenAI has developed a version of GPT-4 that can remember 50 pages of content, five times more than the previous model. This expanded 'memory' allows for longer and more coherent conversations, reducing the likelihood of veering off-topic. The context window, which determines the amount of text the model considers before generating more text, plays a significant role in the model's performance. The impact of this improvement remains to be seen, but it has the potential to greatly enhance the quality of interactions with text-generating AI.",
+    link: 'https://techcrunch.com/2023/03/14/openai-is-testing-a-version-of-gpt-4-that-can-remember-long-conversations/',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title: 'GigaChat: Russia enters AI race with its ChatGPT rival',
+    attribution: 'Interesting Engineering - Ameya Paleja',
+    body: "Russia's state-owned Sberbank has launched GigaChat, a conversational AI chatbot that rivals OpenAI's ChatGPT. While GigaChat excels in Russian, its foreign language capabilities are limited. The launch adds another player to the global AI race, but it remains to be seen how competitive GigaChat will be on a global stage. Notably, GigaChat was developed by a lending bank investing in technology to reduce its reliance on Western imports. The question of how Russia will source the advanced chips needed to advance AI research and development remains a bigger issue, given the country's facing sanctions for its aggression in Ukraine.",
+    link: 'https://interestingengineering.com/innovation/russian-chatgpt-rival-gigachat',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title: "Inside Meta's scramble to catch up on AI",
+    attribution: 'Reuters - Katie Paul',
+    body: "Facebook parent company Meta Platforms' late adoption of AI-friendly hardware and software systems for its main business have caused a 'significant gap' in its ability to do cutting-edge AI work, according to a company memo dated Sept 20. Despite publicly acknowledging 'playing a little bit of catch-up' on AI hardware trends, details of the overhaul, including scrapped projects and leadership changes, have not been reported previously. The overhaul has cost Meta about $4bn a quarter, nearly double its spend as of 2021. The company has been engaged in a massive project to whip its AI infrastructure into shape for over a year.",
+    link: 'https://www.reuters.com/technology/inside-metas-scramble-catch-up-ai-2023-04-25/',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title: 'ChatGPT On Steroids? Why Auto-GPT Is The Next Big Thing In AI',
+    attribution: 'Yahoo! Finance - Aran Richardson',
+    body: 'Auto-GPT, an open-source application, is generating buzz as it automates prompts for GPT-4, OpenAI’s powerful ChatGPT AI. Users can enter a list of tasks, and the application talks with ChatGPT to create prompts and complete tasks. The application spawns its sub-tasks, which make contextual sense and help complete tasks. Companies can build complex to-do lists, asking Auto-GPT to perform layers of tasks that not only export information but also complete actions like sharing with colleagues and performing market research. The growth of Auto-GPT and similar tools points to a need for interoperability and collaboration within AI.',
+    link: 'https://finance.yahoo.com/news/chatgpt-steroids-why-auto-gpt-194912109.html',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      'Stanford and MIT study: A.I. boosted worker productivity by 14%—those who use it ‘will replace those who don’t’',
+    attribution: 'CNBC - Jennifer Liu',
+    body: "A Stanford and MIT study found that artificial intelligence (AI) tools increased worker productivity by 14%, with those utilizing AI predicted to replace those who don't. The research, which measured the performance of over 5,000 customer support agents at a software company, discovered that AI tools improved productivity by 35% for novice and low-skilled workers. While experienced workers saw minimal impact, AI support improved customer satisfaction, reduced the need for managerial intervention, and enhanced employee retention. The study suggests that AI can help workers multitask and handle complex queries more efficiently, making work less stressful and resulting in happier customers.",
+    link: 'https://www.cnbc.com/2023/04/25/stanford-and-mit-study-ai-boosted-worker-productivity-by-14percent.html',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'xxx.jpg',
+    title:
+      'AI Spam Is Already Flooding the Internet and It Has an Obvious Tell',
+    attribution: 'Vice - Matthew Gault',
+    body: "AI-generated content is flooding Amazon and Twitter, with users and bots repeatedly including the phrases 'as an AI language model' and 'I cannot generate inappropriate content' in their messages. A search of Amazon reviews reveals many spam posts containing the phrases. Some Twitter bots use the phrases when unable to fulfil a request. There are fears that generative AI tools like chatbots could easily be weaponised for malicious purposes, such as spreading malware, fraud or hate speech, with threats to democracy and health.",
+    link: 'https://www.vice.com/en/article/5d9bvn/ai-spam-is-already-flooding-the-internet-and-it-has-an-obvious-tell',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
 ]
 
 export default contentData
