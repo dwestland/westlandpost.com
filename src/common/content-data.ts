@@ -624,9 +624,8 @@ const contentData = [
     link: 'https://www.reuters.com/sports/motor-sports/german-magazine-apologises-schumacher-family-sacks-editor-2023-04-22/',
     datePublished: '2023-04-24T15:00:00.000Z',
   },
-  ////////////////////////////////////////////////////////////////////////////////////////////////////////////
   {
-    image: 'xxx.jpg',
+    image: 'chatgpt-outperforms-physicians.jpg',
     title:
       'Study Finds ChatGPT Outperforms Physicians in High-Quality, Empathetic Answers to Patient Questions',
     attribution: 'UC San Diego Today - Mika Ono',
@@ -635,7 +634,7 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'buzzfeed.jpg',
     title:
       'After the Death of BuzzFeed News, Journalists Should Treat AI as an Existential Threat',
     attribution: 'Gizmodo - Lucas Ropek',
@@ -644,7 +643,15 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'visual-prompting.jpg',
+    title: 'Visual Prompting Livestream With Andrew Ng',
+    attribution: 'YouTube - Landing AI',
+    body: '<b style="color: crimson;">VIDEO:</b> Join Andrew Ng as he spills the beans on Visual Prompting. Say goodbye to the cumbersome AI modeling workflow and hello to quick results. Just give a simple Visual Prompt, and voila! Learn lessons from NLP\'s success, witness a live demo, and unravel the implications of this game-changer. Hurry up and visit landing.ai to be part of the conversation. Let\'s make computer vision as easy as a text prompt, shall we?',
+    link: 'https://www.youtube.com/watch?v=FE88OOUBonQ',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'billions-on-earth.jpg',
     title:
       "Mark Zuckerberg says Meta wants to 'introduce AI agents to billions of people'",
     attribution: 'The Verge - Alex Heath',
@@ -653,7 +660,7 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'ai-taking-your-job.jpg',
     title: 'AI might not replace you, but a person who uses AI could',
     attribution: 'Fortune - Paolo Confino and Amber Bruton',
     body: 'As AI becomes more prevalent, prompt engineers are poised to play a crucial role in organizations, leveraging generative AI tools like ChatGPT to achieve desired outcomes. While AI will lead to the elimination of certain jobs, it is estimated to create a net gain of 13 million new jobs. Prompt engineers will fill the skills gap in this rapidly growing field, helping companies navigate the AI revolution. By focusing on tasks that lack value or are repeatable, prompt engineers can improve efficiency and enable cross-functional collaboration, ultimately transforming business units and providing a comprehensive perspective.',
@@ -661,16 +668,7 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
-    title:
-      "'ChatGPT Does 80% Of My Job' — How AI Enables People To Work Second And Third Jobs",
-    attribution: 'Yahoo Finance - Jeannine Mancini',
-    body: "The rise of overemployed workers utilizing AI language models like ChatGPT to handle their job responsibilities has raised concerns about job market impact. Despite potential job automation, some individuals are capitalizing on AI technology to work multiple jobs without detection. Ben, a financial technology marketer, successfully used ChatGPT to take on a second job, even writing cover letters with the AI's assistance. While advancements like GPT-4 make their work easier, workers believe their expertise is still crucial to ensure accurate text generation. The prevalence of covert ChatGPT usage in the workplace is growing, with many professionals discreetly using it to save time.",
-    link: 'https://finance.yahoo.com/news/chatgpt-does-80-job-ai-200626793.html',
-    datePublished: '2023-05-01T15:00:00.000Z',
-  },
-  {
-    image: 'xxx.jpg',
+    image: 'instagram.jpg',
     title:
       'Meta says time spent on Instagram grew 24% thanks to TikTok-style AI Reel recommendations',
     attribution: 'TechCrunch - Darrell Etherington',
@@ -679,7 +677,25 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'ai-doing-my-job.jpg',
+    title:
+      "'ChatGPT Does 80% Of My Job' - How AI Enables People To Work Second And Third Jobs",
+    attribution: 'Yahoo Finance - Jeannine Mancini',
+    body: "The rise of overemployed workers utilizing AI language models like ChatGPT to handle their job responsibilities has raised concerns about job market impact. Despite potential job automation, some individuals are capitalizing on AI technology to work multiple jobs without detection. Ben, a financial technology marketer, successfully used ChatGPT to take on a second job, even writing cover letters with the AI's assistance. While advancements like GPT-4 make their work easier, workers believe their expertise is still crucial to ensure accurate text generation. The prevalence of covert ChatGPT usage in the workplace is growing, with many professionals discreetly using it to save time.",
+    link: 'https://finance.yahoo.com/news/chatgpt-does-80-job-ai-200626793.html',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+
+  {
+    image: 'ai-joanna.jpg',
+    title: 'I Challenged My AI Clone to Replace Me for 24 Hours | WSJ',
+    attribution: 'YouTube - Wall Street Journal',
+    body: '<b style="color: crimson;">VIDEO:</b> Joanna Stern explores the use of AI avatars and voices to replace oneself in various tasks. She tests a custom AI avatar created by Synthesia and an AI voice by ElevenLabs. While the AI avatar falls short in creating convincing TikTok videos and video calls, the AI voice proves more successful, fooling even her sister in a phone call. Stern raises concerns about the potential misuse of these technologies and emphasizes the need for vigilance in distinguishing between real and AI-generated content. Ultimately, she concludes that while AI voices are impressive, video clones still have a long way to go.',
+    link: 'https://www.youtube.com/watch?v=t52Bi-ZUZjA',
+    datePublished: '2023-05-01T15:00:00.000Z',
+  },
+  {
+    image: 'glowing-chips.jpg',
     title:
       'OpenAI is testing a version of GPT-4 that can ‘remember’ long conversations',
     attribution: 'TechCrunch - Kyle Wiggers',
@@ -688,7 +704,7 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'russia-gpt.jpg',
     title: 'GigaChat: Russia enters AI race with its ChatGPT rival',
     attribution: 'Interesting Engineering - Ameya Paleja',
     body: "Russia's state-owned Sberbank has launched GigaChat, a conversational AI chatbot that rivals OpenAI's ChatGPT. While GigaChat excels in Russian, its foreign language capabilities are limited. The launch adds another player to the global AI race, but it remains to be seen how competitive GigaChat will be on a global stage. Notably, GigaChat was developed by a lending bank investing in technology to reduce its reliance on Western imports. The question of how Russia will source the advanced chips needed to advance AI research and development remains a bigger issue, given the country's facing sanctions for its aggression in Ukraine.",
@@ -696,7 +712,7 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'zuckerberg-at-meta.jpg',
     title: "Inside Meta's scramble to catch up on AI",
     attribution: 'Reuters - Katie Paul',
     body: "Facebook parent company Meta Platforms' late adoption of AI-friendly hardware and software systems for its main business have caused a 'significant gap' in its ability to do cutting-edge AI work, according to a company memo dated Sept 20. Despite publicly acknowledging 'playing a little bit of catch-up' on AI hardware trends, details of the overhaul, including scrapped projects and leadership changes, have not been reported previously. The overhaul has cost Meta about $4bn a quarter, nearly double its spend as of 2021. The company has been engaged in a massive project to whip its AI infrastructure into shape for over a year.",
@@ -704,7 +720,7 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'autogpt.jpg',
     title: 'ChatGPT On Steroids? Why Auto-GPT Is The Next Big Thing In AI',
     attribution: 'Yahoo! Finance - Aran Richardson',
     body: 'Auto-GPT, an open-source application, is generating buzz as it automates prompts for GPT-4, OpenAI’s powerful ChatGPT AI. Users can enter a list of tasks, and the application talks with ChatGPT to create prompts and complete tasks. The application spawns its sub-tasks, which make contextual sense and help complete tasks. Companies can build complex to-do lists, asking Auto-GPT to perform layers of tasks that not only export information but also complete actions like sharing with colleagues and performing market research. The growth of Auto-GPT and similar tools points to a need for interoperability and collaboration within AI.',
@@ -712,16 +728,16 @@ const contentData = [
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'professor.jpg',
     title:
-      'Stanford and MIT study: A.I. boosted worker productivity by 14%—those who use it ‘will replace those who don’t’',
+      'Stanford and MIT study: A.I. boosted worker productivity by 14% - those who use it ‘will replace those who don’t’',
     attribution: 'CNBC - Jennifer Liu',
     body: "A Stanford and MIT study found that artificial intelligence (AI) tools increased worker productivity by 14%, with those utilizing AI predicted to replace those who don't. The research, which measured the performance of over 5,000 customer support agents at a software company, discovered that AI tools improved productivity by 35% for novice and low-skilled workers. While experienced workers saw minimal impact, AI support improved customer satisfaction, reduced the need for managerial intervention, and enhanced employee retention. The study suggests that AI can help workers multitask and handle complex queries more efficiently, making work less stressful and resulting in happier customers.",
     link: 'https://www.cnbc.com/2023/04/25/stanford-and-mit-study-ai-boosted-worker-productivity-by-14percent.html',
     datePublished: '2023-05-01T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'ai-spam.jpg',
     title:
       'AI Spam Is Already Flooding the Internet and It Has an Obvious Tell',
     attribution: 'Vice - Matthew Gault',
