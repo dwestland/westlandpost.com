@@ -745,6 +745,93 @@ const contentData = [
     link: 'https://www.vice.com/en/article/5d9bvn/ai-spam-is-already-flooding-the-internet-and-it-has-an-obvious-tell',
     datePublished: '2023-05-01T15:00:00.000Z',
   },
+  {
+    image: 'google-engineer.jpg',
+    title:
+      'Google engineer warns it could lose out to open-source technology in AI race',
+    attribution: 'The Guardian - Dan Milmo',
+    body: 'A Google engineer has warned that the company risks losing the AI race to open-source technology. The worker said open-source developers were already outpacing Google and OpenAI, citing a large language model developed by Meta, which was made available on a case-by-case basis, but leaked online. The engineer said the barrier to working on AI models has dropped "from the total output of a major research organization to one person, an evening, and a beefy laptop". The EU has been warned that it must protect grassroots AI research in its planned AI bill or risk hampering the release of open-source models.',
+    link: 'https://www.theguardian.com/technology/2023/may/05/google-engineer-open-source-technology-ai-openai-chatgpt',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'chatgpt-in-your-assignments.jpg',
+    title:
+      'Chegg shares drop more than 40% after company says ChatGPT is killing its business',
+    attribution: 'CNBC - Sarah Min',
+    body: "Shares of online education company Chegg plunged by more than 40% after CEO Dan Rosensweig said during an earnings call that ChatGPT, an AI language model developed by OpenAI, was impacting the company's new customer growth rate. Chegg offers homework assistance and online tutoring, but its revenue for the current quarter is now expected to be between $175m and $178m, well below the analyst consensus of $193.6m. Chegg is also developing its own AI product, CheggMate, which is meant to help students with their homework.",
+    link: 'https://www.cnbc.com/2023/05/02/chegg-drops-more-than-40percent-after-saying-chatgpt-is-killing-its-business.html',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'code-interpreter.jpg',
+    title: 'New ChatGPT Code Interpreter: This Changes EVERYTHING!',
+    attribution: 'YouTube - MattVidPro AI',
+    body: '<b style="color: crimson;">VIDEO:</b> OpenAI\'s chatbot, GPT, has expanded its capabilities with a new tool called the "code interpreter." The interpreter can perform tasks such as creating charts, video editing, and converting different files. The tool is advertised as a "Swiss army knife" and is considered GPT\'s most powerful tool yet. The code interpreter is a separate model within GPT and is in Alpha mode. One example of the tool\'s abilities is using a Netflix data set to create multiple graphs of the different countries and demographics watching various shows. Another example is visualizing crime trends from a CSV file, including a map of San Francisco.',
+    link: 'https://www.youtube.com/watch?v=RPX7dHe-1is',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+
+  {
+    image: 'godfather.jpg',
+    title:
+      '‘Godfather of AI’ quits Google with regrets and fears about his life’s work',
+    attribution: 'The Verge - Thomas Ricker',
+    body: "Geoffrey Hinton, one of the pioneers of artificial intelligence (AI) and a recipient of the Turing Award, has expressed regret and concern about his life's work. Hinton recently left Google to openly discuss the risks associated with AI. He believes it is difficult to prevent bad actors from exploiting AI for malicious purposes. Hinton's worries extend beyond misinformation to the potential elimination of jobs and even the threat posed by AI surpassing human intelligence. He admitted that his previous estimate of AI's advancement being decades away was no longer accurate.",
+    link: 'https://www.theverge.com/2023/5/1/23706311/hinton-godfather-of-ai-threats-fears-warnings',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'ai-losers.jpg',
+    title: 'The first casualties of AI',
+    attribution: 'YouTube - Fireship',
+    body: '<b style="color: crimson;">VIDEO:</b> Chegg, a popular college cheating platform, has lost 50% of its business due to the rise of ChatGPT, which is being used by 89% of students. As a result, Chegg has signed up for the OpenAI API to develop "Chegmate," a tool to help students cheat on their homework. This is bad news for companies like BuzzFeed, Vice Media, and Duolingo, who are going out of business due to AI-generated content and language learning apps. Additionally, LegalZoom is tanking as it is in the direct Kill Zone of AI. However, programming jobs seem to be safe for the time being.',
+    link: 'https://www.youtube.com/watch?v=PR_ykicOZYU',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'auto-gpt.jpg',
+    title: 'AutoGPT: This Is ChatGPT Supercharged!',
+    attribution: 'YouTube - Two Minute Papers',
+    body: '<b style="color: crimson;">VIDEO:</b> OpenAI\'s ChatGPT can now prompt itself and make decisions and take action, thanks to a new feature called AutoGPT. This feature allows ChatGPT to break down complex tasks into smaller steps and add the required items step-by-step, such as building a website or researching itself. The progress report allows the user to see what has been done and what is left to do. AutoGPT is like a team of assistants that asks for permission before each step. Although AutoGPT is slow, expensive, and limited, it has the potential to revolutionize the field.',
+    link: 'https://www.youtube.com/watch?v=LqjVMy2qhRY',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'ai-mri-reads-mind.jpg',
+    title:
+      "Scientists Use GPT AI to Passively Read People's Thoughts in Breakthrough",
+    attribution: 'Vice - Becky Ferreira',
+    body: 'Scientists have developed a non-invasive method to decode human thoughts into continuous language by using an AI model similar to ChatGPT, according to a new study. The researchers combined the model with a functional magnetic resonance imaging machine to read brain activities and reconstruct continuous language. This marks the first time that brain activities have been read and interpreted without the use of invasive implanted devices, which require neurosurgery. The researchers hope this technology could one day help people with neurological conditions that affect speech to clearly communicate with the outside world.',
+    link: 'https://www.vice.com/en/article/4a3w3g/scientists-use-gpt-ai-to-passively-read-peoples-thoughts-in-breakthrough',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'ibm-losing-jobs.jpg',
+    title:
+      'IBM halts hiring for 7,800 jobs that could be replaced by AI, Bloomberg reports',
+    attribution: 'Business Insider - Katherine Tangalakis-Lippert',
+    body: "IBM's CEO, Arvind Krishna, has told Bloomberg that the company will suspend hiring for back-office roles that could be replaced by AI, impacting roughly 7,800 jobs over five years. The cuts will mostly affect non-customer-facing positions such as HR, representing around 30% of back-end roles. While IBM currently employs about 260,000 people, it previously announced job cuts of 1.5% of its workforce earlier this year. As AI capabilities continue to expand, experts have warned of the potential impact on the labor market.",
+    link: 'https://www.businessinsider.com/ibm-halts-hiring-for-7800-jobs-that-could-be-replaced-by-ai-report-2023-5',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'dark-brandon.jpg',
+    title:
+      'Biden administration unveils an AI plan ahead of meeting with tech CEOs',
+    attribution: 'CNN - Brian Fung',
+    body: 'The US government plans to introduce policies to shape how federal agencies procure and use AI systems, with the National Science Foundation set to spend $140m promoting AI R&D. The measures come amid growing concerns around the potential risks of AI, including the threat of AI-created deepfakes and misinformation, biased algorithmic decision-making, and the threat of AI-powered malicious hackers. The plan was unveiled as Vice President Kamala Harris and other officials met with the CEOs of Google, Microsoft, and OpenAI to discuss the importance of ethical and responsible AI development, while the UK government launched an inquiry into the risks and benefits of AI.',
+    link: 'https://www.cnn.com/2023/05/04/tech/white-house-ai-plan/index.html',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
+  {
+    image: 'nvidia-video.jpg',
+    title: "NVIDIA's New Video AI: Game Changer!",
+    attribution: 'YouTube - Two Minute Papers',
+    body: '<b style="color: crimson;">VIDEO:</b> NVIDIA has developed an AI system called Imagen Video, capable of generating high-resolution videos of up to 5 minutes from a single text prompt. The technique is based on a diffusion-based algorithm that gradually reorders pixels to form an image, with temporal coherence being the secret ingredient for successful video generation. Potential applications include generating hypothetical driving sequences for self-driving cars to practice, creating virtual characters and movies, and generating natural phenomena simulations. Despite some limitations, the AI system holds promise for future developments.',
+    link: 'https://www.youtube.com/watch?v=3A3OuTdsPEk',
+    datePublished: '2023-05-08T15:00:00.000Z',
+  },
 ]
 
 export default contentData
