@@ -832,6 +832,107 @@ const contentData = [
     link: 'https://www.youtube.com/watch?v=3A3OuTdsPEk',
     datePublished: '2023-05-08T15:00:00.000Z',
   },
+
+  {
+    image: 'pichai.jpg',
+    title: 'Google is putting AI in basically everything, including search',
+    attribution: 'Vox - Shirin Ghaffary',
+    body: "Google is putting AI in its popular products, including search, in an effort to regain its dominance in the AI and search markets. The move comes after the success of OpenAI's ChatGPT, which threatened Google's position. The new AI applications will allow users to compose emails, create presentations, and even text in Shakespearean-style prose with the help of AI. While the technology has the potential to enhance productivity and creativity, there are concerns about errors and biases. The new search experience will present AI-generated text in a conversational format, but there are risks associated with providing inaccurate or misleading information.",
+    link: 'https://www.vox.com/technology/2023/5/10/23718877/google-io-sundar-pichai-ai-conference-palm2-sge-mountain-view-openai-microsoft-generative',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'billion-ai-users.jpg',
+    title:
+      'ChatGPT maker OpenAI is now the fastest growing leading website, nearing 1 billion user mark in record time',
+    attribution: 'Telecom Reseller',
+    body: "OpenAI's ChatGPT has helped the company become the fastest-growing website, nearing 1 billion unique users per month. In March, traffic to OpenAI grew by 54.21%, and the website received 847.8 million unique visitors. OpenAI climbed nine positions in the global ranking to number 18. Stefan Katanic, CEO of Veza Digital, said that the findings are indicative of a clear public interest in AI-powered solutions.",
+    link: 'https://telecomreseller.com/2023/05/11/chatgpt-maker-openai-is-now-the-fastest-growing-leading-website-nearing-1bn-user-mark-in-record-time/',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'nvidia-ai-breakthrough.jpg',
+    title: "Nvidia's AI Breakthrough Changes Video & Gaming Forever",
+    attribution: 'YouTube - Ticker Symbol: YOU',
+    body: '<b style="color: crimson;">VIDEO:</b> Nvidia\'s groundbreaking research paper on generative AI for video has the potential to revolutionize creative industries like art, music, movies, and video games. It addresses the challenge of maintaining the structure of a scene from frame to frame, unlike previous AI-generated videos that lacked coherence. With the ability to generate coherent videos up to five minutes long, Nvidia\'s model, boasting 4.1 billion parameters, opens up possibilities for disruptive advancements in fields like architecture, tourism, education, and self-driving cars. This breakthrough could unleash trillions of dollars in enterprise value and reshape the future of storytelling and content creation.',
+    link: 'https://www.youtube.com/watch?v=1OZsmeunfcc',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+
+  {
+    image: 'low-wage.jpg',
+    title: 'ChatGPT Is Powered by Human Contractors Getting Paid $15 Per Hour',
+    attribution: 'Gizmodo - Lucas Ropek',
+    body: 'OpenAI\'s popular AI chatbot, ChatGPT, is powered by human workers paid just $15 an hour to train the machine learning systems. These "labelers" tag items in datasets, helping machines identify them more accurately, which improves the chatbot\'s response to user requests. NBC News found that the OpenAI moderators receive no benefits and are paid little more than minimum wage, despite their pivotal role in the training of machine learning models. Previously, the company outsourced this work to moderators in Africa, paying as little as $2 per hour.',
+    link: 'https://gizmodo.com/chatgpt-openai-ai-contractors-15-dollars-per-hour-1850415474',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'ai-explain-itself.jpg',
+    title:
+      'ChatGPT creators try to use artificial intelligence to explain itself – and come across major problems',
+    attribution: 'Independent - Andrew Griffin',
+    body: 'Creators of ChatGPT, an AI language model developed by OpenAI, attempted to use its successor, GPT-4, to explain the behavior of GPT-2, but ran into issues as AI may be using concepts that humans cannot name or understand. The so-called black box problem makes it difficult for researchers to understand the internal workings of large language models such as GPT, which can pose problems in identifying biases and whether the system is providing false information. OpenAI is exploring interpretability research to better understand such systems. However, explaining how the system works in natural language may not be possible.',
+    link: 'https://www.independent.co.uk/tech/chatgpt-openai-artificial-intelligence-b2336900.html',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'hamburger.jpg',
+    title: "Wendy's tests an AI chatbot that takes your drive-thru order",
+    attribution: 'The Verge - Emma Roth',
+    body: "Wendy's is teaming up with Google to create an AI chatbot for its drive-thrus, with a first test in a Columbus, Ohio restaurant in June. The chatbot will be built on Google's existing large language model and will learn the lingo used by Wendy's customers. Despite the promise of reducing wait times, the system may have a tough time dealing with unexpected noises, such as those from children, and customers who change their minds mid-order. A Wendy's employee will monitor the system when it is first introduced, and customers will have the option of speaking to a human.",
+    link: 'https://www.theverge.com/2023/5/9/23716825/wendys-ai-drive-thru-google-llm',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'disappering-computer.jpg',
+    title:
+      'The Disappearing Computer: An Exclusive Preview of Humane’s Screenless Tech | Imran Chaudhri | TED',
+    attribution: 'YouTube - TED',
+    body: '<b style="color: crimson;">VIDEO:</b> In a TED Talk, a former Apple designer, Imran Chaudhri, discusses the future of wearable technology and the role of artificial intelligence (AI). He introduces a new kind of wearable device and platform that is built from the ground up for AI, emphasizing its standalone nature and ability to seamlessly integrate with the user\'s surroundings. Chaudhri envisions a future where technology becomes invisible, allowing for more natural and immersive interactions. He demonstrates examples such as effortless language translation and personalized assistance. He concludes by stating that the future of technology lies in creating a more humane and integrated human-technology relationship.',
+    link: 'https://www.youtube.com/watch?v=gMsQO5u7-NQ',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'ai-bot.jpg',
+    title: 'Google adding AI-powered chatbot to search',
+    attribution: 'The Hill - Jared Gans',
+    body: "Google is adding an AI-powered chatbot to its search function to provide more relevant and useful answers to users' queries. The chatbot will take on tasks such as suggesting related questions and offering purchase suggestions based on product reviews, ratings, and pricing. Google has developed the chatbot to help users make better decisions by providing them with a wider range of sources and insights. The new technology is available on Google Chrome and the Google app in the United States, and the company is starting experiments with the technology to incorporate feedback to the bot.",
+    link: 'https://thehill.com/policy/technology/3999616-google-adding-ai-powered-chatbot-to-search/',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'china-ai.jpg',
+    title: 'China races ahead of U.S. on AI regulation',
+    attribution: 'Axios - Ryan Heath',
+    body: 'Chinese authorities are leading the world on artificial intelligence (AI) regulation, already closing consultations on a second round of generative AI rules that build on a set of guidelines for deepfakes agreed in 2022. Unlike American officials, who merely talk of "delivering user rights" and urge CEOs to "mitigate risks", their Chinese and European counterparts are already delivering such safeguards, according to this opinion piece. Furthermore, Beijing\'s speedy regulation achieves three goals at home: tighter central government control of debate, the creation of hybrid corporate entities meshed with the Chinese Communist Party and boosting trust in AI.',
+    link: 'https://www.axios.com/2023/05/08/china-ai-regulation-race',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'ai-trends.jpg',
+    title: '10 AI trends to watch for in 2023',
+    attribution: 'The Hill - Vilas Dhar and Yolanda Botti-Lodovico',
+    body: "Vilas Dhar and Yolanda Botti-Lodovico highlight key areas where AI will have a significant impact. They touch on topics such as the automation of jobs, the integration of AI in education, the challenges posed by AI for children, the privacy concerns surrounding AI-generated portraits, the impact of AI on the art world, the need for algorithmic justice, regulations for lethal AI systems, philanthropy's role in shaping AI development, the digital and AI divide, and the role of AI in government. The authors emphasize the need for proactive human engagement and responsible decision-making to shape the future of AI.",
+    link: 'https://thehill.com/opinion/technology/3839197-10-ai-trends-to-watch-for-in-2023/',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'prompt-engineer.jpg',
+    title: 'Bloomberg is hiring Chat-GPT experts on $295k+ salaries',
+    attribution: 'eFinancialCareers - Alex McMurray',
+    body: "Bloomberg is seeking Chat-GPT experts with salaries over $295k. The company is hiring for a technical product manager and an applied LLM researcher to work on its Large Language Model (LLM), Bloomberg GPT. While the salaries are impressive, they fall short compared to other roles in the field. The product manager will focus on technical strategy, while the researcher will contribute to code generation. Goldman Sachs' CEO also mentioned a talent shortage for LLM experts, with plans to use LLMs for code writing. Bloomberg requires its researcher to have a PhD in various related fields.",
+    link: 'https://www.efinancialcareers.com/news/2023/05/chat-gpt-prompt-engineering-jobs',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
+  {
+    image: 'google-gone-wild.jpg',
+    title: '10 crazy announcements from Google I/O',
+    attribution: 'YouTube - Fireship',
+    body: '<b style="color: crimson;">VIDEO:</b> In a leaked memo, a Google employee predicts that open-source models will triumph in the AI war, leaving Google without a competitive advantage. Google\'s AI-centric announcements at Google I/O include generative AI directly in search engine results, a YouTube ad-blocker blocker, Google\'s own state-of-the-art model called Palm 2, AI integration into business products, and the introduction of Project Tailwind. Additionally, Google unveiled a foldable phone, Firebase and Flutter updates, and advancements like WebAssembly and WebGPU for faster browser-based graphics and machine learning. Stay tuned for more AI gossip.',
+    link: 'https://www.youtube.com/watch?v=nmfRDRNjCnM',
+    datePublished: '2023-05-15T15:00:00.000Z',
+  },
 ]
 
 export default contentData
