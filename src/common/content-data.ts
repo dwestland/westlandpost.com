@@ -933,6 +933,114 @@ const contentData = [
     link: 'https://www.youtube.com/watch?v=nmfRDRNjCnM',
     datePublished: '2023-05-15T15:00:00.000Z',
   },
+
+  {
+    image: 'openai-robot.jpg',
+    title: 'ChatGPT Plus Has Two Huge New Features You Can Try Right Now',
+    attribution: 'Life Hacker - Jake Peterson',
+    body: "OpenAI's ChatGPT Plus has introduced two game-changing features: internet access and plugins. With internet access, ChatGPT can now browse the web for real-time information, expanding its capabilities beyond its closed knowledge base. Plugins, similar to browser extensions, allow users to add third-party functionalities like restaurant searches, math computations, and travel recommendations. However, these exciting features come at a cost—ChatGPT Plus subscription is priced at $20 per month. So if you're willing to pay, you can now unlock a whole new world of possibilities with ChatGPT.",
+    link: 'https://lifehacker.com/chatgpt-plus-has-two-huge-new-features-you-can-try-righ-1850445533',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+  {
+    image: 'fantasy-capital.jpg',
+    title: 'The Senate’s hearing on AI regulation was dangerously friendly',
+    attribution: 'The Verge - James Vincent',
+    body: 'The Senate hearing on AI regulation was practically a tea party, with industry heavyweights such as OpenAI\'s Sam Altman readily consenting to regulation. But critics are worried about "regulatory capture," where corporations write toothless rules that harm the public. There\'s also fear of stifling smaller firms, not to mention a lack of focus on immediate AI-related problems. Proposals for a licensing system were met with suspicion, with one critic saying it would just concentrate power. The dialogue, critics suggest, needs to steer towards concrete measures against known harmful AI uses, rather than vague, future-oriented stipulations.',
+    link: 'https://www.theverge.com/2023/5/19/23728174/ai-regulation-senate-hearings-regulatory-capture-laws',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'tesla-bot-update.jpg',
+    title: 'Tesla Bot Update',
+    attribution: 'YouTube - Tesla',
+    body: "<b style=\"color: crimson;\">VIDEO:</b> Elon Musk's Tesla robot, the Tesla bot, has been hyped up as the invention that will save the world. While it's unlikely to live up to all the promises, Tesla has the resources and expertise to make it happen. The focus on developing this robot stems from Musk's concerns about population decline and the need for automated labor to sustain economic growth. If Tesla can produce robots at a faster rate than the decline in human labor, it could lead to exponential economic expansion and a utopian future.",
+    link: 'https://www.youtube.com/watch?v=XiQkeWOFwmk',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'software-engineer.jpg',
+    title: 'Google Is Making Strikes With Major Chat GPT Rival',
+    attribution: "TheStreet - Brian O'Connel",
+    body: "Google continues to make strides in the AI chatbot market with the introduction of its new language model, PaLM 2. The upgraded model aims to enhance conversational AI-based internet searches and is trained in logic, reasoning, and multilingual text. With PaLM 2's improved capabilities in translation, coding, and human reasoning, Google is solidifying its position in the internet search market and competing against OpenAI's GPT-4, owned by Microsoft. As consumer choice expands, Google's advancements in AI position it as the frontrunner in the chatbot market.",
+    link: 'https://www.thestreet.com/breaking-news/google-is-making-strikes-with-major-chat-gpt-rival',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'iphone.jpg',
+    title: 'OpenAI launches free ChatGPT app for iOS',
+    attribution: 'The Verge - James Vincent',
+    body: "OpenAI surprises users with an iOS app for ChatGPT, and an Android version is coming soon. The app is free, syncs chat history with the web, and supports voice input. However, users are cautioned not to trust the system's answers or share sensitive information. OpenAI's mobile app launch is a smart move considering ChatGPT's immense popularity and could potentially attract users away from Microsoft's Bing app. Nevertheless, ChatGPT's known issues with generating false information and privacy concerns persist on the mobile platform.",
+    link: 'https://www.theverge.com/2023/5/18/23728703/openai-chatgpt-app-ios',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'coding.jpg',
+    title: 'Google Colab adding Codey for AI-powered code generation',
+    attribution: '9to5Google - Abner Li',
+    body: 'Google announced the arrival of Codey, an AI-powered code generation feature, to Google Colab. Codey is designed for machine learning, education, and data analysis purposes, allowing users to write and execute Python code in their browser. The tool, customized for Python and Colab, generates code snippets and functions based on natural language prompts, minimizing repetitive coding tasks. Paid Colab users will also benefit from autocomplete suggestions. Additionally, a chatbot called "Colab AI" will assist users with programming queries. Codey is initially launching for paid US subscribers and will expand to the free tier and other countries in the future.',
+    link: 'https://9to5google.com/2023/05/17/google-colab-codey/',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'future-of-web-design.jpg',
+    title:
+      'Top 3 AI Website Builders: How to Create A Website in Minutes (no coding)',
+    attribution: 'YouTube - Obscurious',
+    body: '<b style="color: crimson;">VIDEO:</b> This video explores different AI-powered website builders and their capabilities. The author highlights three options: Mixo, Uncody, and Durable. Mixo is praised for its simplicity and ability to generate landing pages quickly. Uncody receives mixed reviews due to its simplistic graphics. Durable offers additional features like multiple pages, AI-assisted marketing, CRM tools, and chatbot integration. Finally, 10web is recommended for those who want full customization and the ability to build complex websites using WordPress. The author emphasizes that building a great website quickly is now easier than ever.',
+    link: 'https://www.youtube.com/watch?v=z9Asx8vdyP8',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'eggs-and-laptop.jpg',
+    title:
+      "ChatGPT's clever way of balancing 9 eggs with other objects convinced some Microsoft researchers that AI is becoming more like humans",
+    attribution: 'Business Insider - Pete Syme',
+    body: 'Microsoft researchers were surprised by the clever response of ChatGPT-4, the latest version of OpenAI\'s AI technology, when asked how to stack a book, nine eggs, a laptop, a bottle, and a nail. While GPT-3 got confused and suggested an unstable stack, GPT-4 proposed arranging the eggs in a grid on top of the book to provide a stable platform for the other objects. This demonstration of understanding the physical world impressed the researchers, indicating progress towards artificial general intelligence (AGI). However, the study noted that GPT-4 still only exhibited "sparks" of AGI and is far from matching human capabilities.',
+    link: 'https://www.businessinsider.com/chatgpt-open-ai-balancing-task-convinced-microsoft-agi-closer-2023-5',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'chatgpt-in-your-assignments.jpg',
+    title: "Why GPT detectors aren't a solution to the AI cheating problem",
+    attribution: 'Tech Xplore - Andrew Myers',
+    body: 'AI detectors meant to identify AI-generated content are unreliable, according to Stanford scholars. The detectors struggle to differentiate between content written by humans and AI, especially when non-native English speakers are involved. These detectors flagged over half of TOEFL essays by non-native English students as AI-generated. Moreover, they are easily circumvented through "prompt engineering," where generative AI is asked to rewrite text with more sophisticated language. The study raises ethical concerns and calls for improved evaluation and refinement of the detectors before relying on them to combat AI cheating.',
+    link: 'https://techxplore.com/news/2023-05-gpt-detectors-solution-ai-problem.html',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+  {
+    image: 'apple-computer.jpg',
+    title: 'Apple is on the hunt for generative AI talent',
+    attribution: 'TechCrunch - Jagmeet Singh',
+    body: "Apple is aggressively seeking generative AI talent, posting numerous job ads on its career page. While CEO Tim Cook remained evasive about the company's involvement in generative AI during an earnings call, reports suggest that Apple is working on its own generative AI products and has restricted the use of external tools like OpenAI's ChatGPT due to concerns about data leakage. The job openings are spread across teams in San Diego, the Bay Area, and Seattle, focusing on various applications such as visual generative modeling for photography, image editing, and avatar generation. Apple aims to bolster its position in the evolving AI landscape, where competitors like Google and Amazon have gained ground.",
+    link: 'https://techcrunch.com/2023/05/19/apple-generative-ai-jobs/',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'unreal-5.2.jpg',
+    title: 'Why Unreal Engine 5.2 is a BIG Deal',
+    attribution: 'YouTube - Unreal Sensel',
+    body: '<b style="color: crimson;">VIDEO:</b> Unreal Engine 5.2, the latest update, brings two major features: procedural content generation and substrate materials. Procedural content generation allows for quick creation of complex models and environments, eliminating repetitive tasks. Previously, Houdini was required, but now it can be done directly in UE5. Substrate materials simplify the process of combining materials, resulting in more realistic and visually appealing objects. Other improvements include enhanced lighting, ray-trace shadows, custom tool creation with scriptable tools, and modeling mode enhancements. With half of all next-gen games using UE5, now is the perfect time to learn Unreal Engine.',
+    link: 'https://www.youtube.com/watch?v=6DIEZhk_ES8',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
+
+  {
+    image: 'ai-revolution.jpg',
+    title: 'How generative A.I. and low-code are speeding up innovation',
+    attribution: 'CNBC - Rachel Curry',
+    body: 'Generative AI and low-code software combine to accelerate innovation, allowing systems to manage work rather than humans working for systems. The convergence of AI and low-code closes the development gap, making development accessible across organizations and increasing organizational efficiency. The challenge lies in change management and maintaining governance, while ensuring responsible and ethical AI implementation with transparency, bias testing, and human oversight. Closed-loop models trained against proprietary data offer new possibilities for generative AI. Ultimately, the fusion of AI and low-code speeds up innovation, giving organizations a competitive edge by shortening the path from idea to live product.',
+    link: 'https://www.cnbc.com/2023/05/19/generative-ai-and-low-code-are-speeding-up-innovation.html',
+    datePublished: '2023-05-22T15:00:00.000Z',
+  },
 ]
 
 export default contentData
