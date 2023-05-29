@@ -1041,6 +1041,57 @@ const contentData = [
     link: 'https://www.cnbc.com/2023/05/19/generative-ai-and-low-code-are-speeding-up-innovation.html',
     datePublished: '2023-05-22T15:00:00.000Z',
   },
+  {
+    image: 'thousand-languages.jpg',
+    title:
+      "Meta's new AI models can recognize and produce speech for more than 1,000 languages",
+    attribution: 'MIT Technoloty Review - Rhiannon Williams',
+    body: 'Meta has developed AI models capable of recognizing and producing speech in over 1,000 languages, a significant advancement from the current coverage of around 100 languages. By releasing these models as open source on GitHub, Meta aims to facilitate the creation of speech applications in various languages, promoting inclusivity and accessibility. The researchers trained the models using audio recordings of the New Testament Bible in multiple languages, enabling the algorithm to learn new languages with minimal data. Although the models have shown promising results, they may still have errors and biases, highlighting the need for caution in their application.',
+    link: 'https://www.technologyreview.com/2023/05/22/1073471/metas-new-ai-models-can-recognize-and-produce-speech-for-more-than-1000-languages/',
+    datePublished: '2023-05-29T15:00:00.000Z',
+  },
+  {
+    image: 'tesla-robot-2023.jpg',
+    title: 'The 2023 Tesla AI Update Is Here!',
+    attribution: 'YouTube - The Tesla Space',
+    body: '<b style="color: crimson;">VIDEO:</b> Tesla is leveraging AI for practical applications in their self-driving technology. While other companies rely on sensor-based driving, Tesla is transitioning to a vision-based neural network. Their approach replicates human driving by using cameras, AI computers, and labeled video frames as memory. Tesla\'s AI-driven system can recognize objects and navigate the environment based on visual cues. By training the neural network, Tesla can consistently improve its capabilities. This shift toward AI control allows the car to anticipate and plan maneuvers efficiently, mimicking human-like driving behavior. Although challenges remain, AI has the potential to enable driverless Tesla vehicles overnight, showcasing its power and value.',
+    link: 'https://www.youtube.com/watch?v=s1UyFiAnqLU',
+    datePublished: '2023-05-29T15:00:00.000Z',
+  },
+  {
+    image: 'ai-watches-workers.jpg',
+    title: 'AI Is Changing How Americans Find Jobs and Get Promoted',
+    attribution: 'Gizmodo - Catherine Rymsha',
+    body: 'Advancements in AI are transforming the job search and career progression for Americans. Human capital management systems, data-driven HR practices, and bias mitigation are reshaping how people are hired, developed, promoted, and fired. AI is now scrutinizing job applications, evaluating employee performance, and aiding decision-making processes. As AI-driven software rapidly advances, job seekers and employees should be aware of the changing landscape, demand transparency, and proactively understand how they are being assessed in order to optimize their careers in the data-driven workplace.',
+    link: 'https://gizmodo.com/chatgpt-jobs-ai-how-americans-find-jobs-get-promoted-1850481233',
+    datePublished: '2023-05-29T15:00:00.000Z',
+  },
+  {
+    image: 'ai-on-laptop.jpg',
+    title: 'Microsoft adds an AI copilot to Windows',
+    attribution: 'Axios - Ina Fried',
+    body: 'Microsoft unveiled its latest addition to Windows: an AI-powered "copilot." The copilot, set to become a standard feature, will assist users in adjusting settings and accessing various OS functions. It can also be kept in a persistent side panel for continuous availability. Alongside this, Microsoft revealed plans to integrate OpenAI\'s technology into multiple products, including Bing, Edge, and Office apps. Furthermore, Azure will introduce an AI service to aid in moderating social media comments, a capability already employed by Microsoft on Bing and GitHub.',
+    link: 'https://www.axios.com/2023/05/23/microsoft-windows-ai-copilot',
+    datePublished: '2023-05-29T15:00:00.000Z',
+  },
+
+  {
+    image: 'draggan.jpg',
+    title: 'New AI Research: DragGAN - Pose Characters with AI',
+    attribution: 'YouTube - MattVidPro',
+    body: '<b style="color: crimson;">VIDEO:</b> A recent paper called \'DragYourGAN\' that presents a revolutionary method for interactive image manipulation using AI. It allows users to drag points on an image to manipulate its pose, shape, expression, and layout in real time. The technique works well for characters and other objects, producing realistic outputs even in challenging scenarios. It can be applied to both AI-generated and real images, making it a powerful tool for editing and fine-tuning visuals. The technology is fast, versatile, and offers a quicker and easier alternative to traditional editing methods like Photoshop.',
+    link: 'https://www.youtube.com/watch?v=xsNwaHRu_No',
+    datePublished: '2023-05-29T15:00:00.000Z',
+  },
+  {
+    image: 'trading-floor.jpg',
+    title:
+      'JPMorgan is developing a ChatGPT-like A.I. service that gives investment advice',
+    attribution: 'CNBC - Hugh Son',
+    body: "JPMorgan is developing a ChatGPT-like AI service called IndexGPT, which will use artificial intelligence to select investments for customers. The bank has applied to trademark the product, indicating its potential launch in the near future. While other banks have tested similar technology for internal use, JPMorgan may be the first to release a GPT-like product directly to customers. The filing specifies that IndexGPT will use the same AI flavor as ChatGPT, signaling the bank's intention to disrupt the role of human financial advisors.",
+    link: 'https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html',
+    datePublished: '2023-05-29T15:00:00.000Z',
+  },
 ]
 
 export default contentData
