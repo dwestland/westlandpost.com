@@ -1092,6 +1092,67 @@ const contentData = [
     link: 'https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html',
     datePublished: '2023-05-29T15:00:00.000Z',
   },
+
+  {
+    image: 'robot-artist.jpg',
+    title:
+      "Adobe's new AI Photoshop tool could save photographers hours of editing time by instantly extending images and adding new elements",
+    attribution: 'Business Insider - Aaron McDade',
+    body: 'Adobe has introduced a new AI tool called "Generative Fill" in Photoshop that can instantly add or remove elements from images. The tool, currently in beta for paying Photoshop users, can extend images based on a text prompt. For example, Adobe demonstrated how it could replace a lasso with pasta. The new AI features aim to save photographers hours of editing time and will be available to the public later this year. While not perfect, the technology is expected to improve over time, similar to recent photo editing services announced by Google.',
+    link: 'https://www.businessinsider.com/adobe-photoshop-ai-instantly-adds-elements-extends-backgrounds-2023-5',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
+  {
+    image: 'raise-global-gdp.jpg',
+    title:
+      '‘Not just a fad’: Firm launches fund designed to capitalize on A.I. boom',
+    attribution: 'CNBC - Sean Conlon',
+    body: 'Roundhill Investments has launched the Generative AI & Technology ETF (CHAT), the first-ever exchange-traded fund focusing on companies involved in generative AI and related technologies. The firm believes these companies are more than just a passing trend and are poised to become as influential as the internet itself. The fund includes not only pure play AI companies but also tech giants like Microsoft and Nvidia. While some worry about an AI price bubble, Roundhill Investments remains bullish on the sector. Since its launch on May 18, the CHAT ETF has already gained over 8%.',
+    link: 'https://www.cnbc.com/2023/06/03/artificial-intelligence-not-a-fad-new-fund-capitalizes-on-boom.html',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
+  {
+    image: 'marketing-against-the-grain.jpg',
+    title: 'AI Shark Tank: 5 Founders Pitch Us Their AI Products',
+    attribution: 'YouTube - Marketing Against the Grain',
+    body: '<b style="color: crimson;">VIDEO:</b> In this episode of "Marketing Against the Grain," the hosts review five AI tools submitted by entrepreneurs. The first tool, Capsule, is an AI video tool that simplifies video editing. The hosts suggest that Capsule should collaborate with viral creators to showcase its capabilities. The second tool, MyAsk AI, allows users to build their own chatbots with access to their content. The hosts appreciate the demo but recommend finding more valuable use cases. The third tool, Kaju.ai, converts Figma designs into code quickly and efficiently, impressing the hosts. They suggest exploring different styling options and interactive design systems.',
+    link: 'https://www.youtube.com/watch?v=0Sz-Nmi_5xg',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
+  {
+    image: 'pile-of-cash.jpg',
+    title: 'Nvidia briefly joins $1 trillion valuation club',
+    attribution: 'Reuters - Akash Sriram',
+    body: "Nvidia briefly achieved a $1 trillion market value, joining the ranks of elite U.S. companies benefiting from the AI boom. With its stock value tripling in under eight months, Nvidia has outperformed the broader market and attracted investors' attention. Analysts believe the company's importance in the era of expanding AI capabilities justifies a higher valuation. While some question its lofty price, Nvidia's earnings potential and early-stage AI adoption indicate future growth. As the dominant producer of GPUs, its chips power generative AI, capturing the interest of tech giants like Alphabet and Microsoft.",
+    link: 'https://www.reuters.com/technology/nvidia-sets-eye-1-trillion-market-value-2023-05-30/',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
+  {
+    image: 'people-in-us.jpg',
+    title:
+      'A majority of Americans have heard of ChatGPT, but few have tried it themselves',
+    attribution: 'Pew Research Center - Emily A. Vogels',
+    body: "ChatGPT, the popular online chatbot, is familiar to most Americans but has been tried by only 14% of the population, as per a Pew Research Center survey. While a majority of those who have used ChatGPT find it somewhat useful, concerns remain about its accuracy and potential for spreading misinformation. Demographic differences exist in awareness, with higher-educated and wealthier individuals more likely to know about ChatGPT. Younger adults have a more positive perception of its usefulness compared to older adults. Overall, the chatbot's potential applications and reception among the public are still debated.",
+    link: 'https://www.pewresearch.org/short-reads/2023/05/24/a-majority-of-americans-have-heard-of-chatgpt-but-few-have-tried-it-themselves/',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
+  {
+    image: 'nvidia-ace.jpg',
+    title:
+      'NVIDIA ACE for Games Sparks Life Into Virtual Characters With Generative AI',
+    attribution: 'Nvidia GeForce - YouTube',
+    body: '<b style="color: crimson;">VIDEO:</b> Nvidia showcased a futuristic gaming experience at Computex 2023, featuring a stunning cyberpunk ramen shop where players can talk to characters using their own voice instead of choosing dialogue options. While the dialogue in the demo left something to be desired, the impressive part was the generative AI\'s ability to respond to natural speech. The demo was built using Nvidia\'s ACE suite, including tools like NeMo and Riva. The visually stunning graphics overshadowed the chatbot aspect. Nvidia hinted at the potential for multiple characters and NPC interactions in the future.',
+    link: 'https://www.youtube.com/watch?v=5R8xZb6J3r0',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
+  {
+    image: 'minecraft.jpg',
+    title: 'This AI used GPT-4 to become an expert Minecraft player',
+    attribution: 'TechCrunch - Devin Coldewey',
+    body: 'Researchers have developed an AI bot, called Voyager, that uses GPT-4 to become an expert player in Minecraft. Unlike other bots, Voyager autonomously generates its own code through trial and error and extensive use of GPT-4 queries. By interacting with the game and consulting GPT-4, Voyager learns how to navigate the Minecraft world and perform tasks such as building fences and mining diamonds. This research aims to develop AI models that can improve themselves based on their experiences, which is crucial for future applications in household robots and other environments.',
+    link: 'https://techcrunch.com/2023/06/02/this-ai-used-gpt-4-to-become-an-expert-minecraft-player/',
+    datePublished: '2023-06-05T15:00:00.000Z',
+  },
 ]
 
 export default contentData
