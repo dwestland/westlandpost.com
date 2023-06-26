@@ -1154,21 +1154,21 @@ const contentData = [
     datePublished: '2023-06-05T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'robot-in-jail.jpg',
     title: 'Google Tells Employees to Stay Away from Its Own Bard Chatbot',
     attribution: 'Gizmodo - Kevin Hurler',
     body: "In a paradoxical move, Alphabet asks its Google employees to give its own chatbot Bard the cold shoulder, fearing secret spilling. Staff are urged not to confide in Bard or OpenAI's ChatGPT, as potential eavesdropping humans might be lurking and training data might blab. This news follows Samsung's 'ChatGPTgate' and similar corporate shush policies at Amazon and Apple. The punchline? Google's Bard is still facing EU launch delays over privacy concerns. The moral? Even AIs can't keep a secret.",
     link: 'https://gizmodo.com/google-tells-employees-to-stay-away-from-its-bard-chatb-1850542824',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'employee-and-robot.jpg',
     title:
-      'Workers are hiding their AI productivity hacks from bosses. A Wharton professor says companies should get them to share.',
+      'Workers are hiding their AI productivity hacks from bosses. A Wharton professor says companies should get them to share',
     attribution: 'Business Insider - Beatrice Nolan',
     body: 'Wharton professor Ethan Mollick suggests that companies should encourage employees to share their AI productivity hacks instead of banning the technology. While some companies are concerned about privacy and legal issues, employees have been using AI tools to increase their productivity and reduce workloads. However, they hesitate to share their discoveries for fear of getting in trouble. Mollick recommends offering incentives, such as shorter workdays, to motivate employees to share their AI techniques, as the potential productivity gains would benefit organizations.',
-    link: 'https://www.businessinsider.com/ai-work-chatgpt-workers-automation-wharton-professor-2023-6?utm_medium=flipdigest.ad.20230619&utm_source=email&utm_content=article&utm_campaign=campaign',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    link: 'https://www.businessinsider.com/ai-work-chatgpt-workers-automation-wharton-professor-2023-6',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
   {
     image: 'nvidias-chip-breakthrough.jpg',
@@ -1176,26 +1176,25 @@ const contentData = [
     attribution: 'YouTube - Ticker Symbol: YOU',
     body: '<b style="color: crimson;">VIDEO:</b> This video highlights the new era of computer industry, where software development is no longer limited to computer engineers but involves AI supercomputers. The Tipping Point of accelerated computing and generative AI has been reached, leading to the production of the H100. The video emphasizes the significance of this technology across various industries. It showcases the capabilities of the H100, along with other servers and processors. The video also introduces the concept of AI factories and the impact of accelerated computing and AI on data centers. Additionally, it mentions the importance of an Enterprise-grade software stack, the integration of Nvidia AI Enterprise, and the extension of generative AI to the cloud and enterprise sectors through partnerships.',
     link: 'https://www.youtube.com/watch?v=0EIwhvqCX1c',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'robot-tells.jokes.jpg',
     title:
       'Researchers discover that ChatGPT prefers repeating 25 jokes over and over',
     attribution: 'Ars Technica - Benj Edwards',
     body: "German researchers have discovered that OpenAI's ChatGPT-3.5 has a limited repertoire of jokes, with 90% of the 1,008 generated jokes being the same 25 jokes. It appears that the AI model memorized these jokes during training rather than generating them anew. The researchers noted that while ChatGPT demonstrated an understanding of stylistic elements and could explain jokes, it struggled with unfamiliar patterns and couldn't discern when a joke fell flat. However, its ability to focus on content and meaning in humor represents progress in the field. The researchers plan to evaluate OpenAI's GPT-4 in future studies and expect it to have a similar fondness for tomato jokes.",
     link: 'https://arstechnica.com/information-technology/2023/06/researchers-discover-that-chatgpt-prefers-repeating-25-jokes-over-and-over/',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'amazon-employees.jpg',
     title:
       "A leaked document of Amazon's ideas for using ChatGPT and AI at work lists 67 ways to take advantage of the ChatGPT boom",
-    attribution:
-      "Amazon employees are capitalizing on the popularity of ChatGPT and similar AI technology, with a leaked document revealing 67 potential use cases for these chatbots across various teams. The ideas include auto-generating software code, facilitating salespeople in analyzing financial reports, and enhancing the search bar for Amazon shoppers. While some concepts are already in the prototyping stage, the extent of ChatGPT's involvement in Amazon's decision-making process, known as PRFAQ, remains uncertain. Amazon has cautioned employees to use the chatbot judiciously and avoid sharing confidential information.",
-    body: 'Business Insider - Eugene Kim',
+    attribution: 'Business Insider - Eugene Kim',
+    body: "Amazon employees are capitalizing on the popularity of ChatGPT and similar AI technology, with a leaked document revealing 67 potential use cases for these chatbots across various teams. The ideas include auto-generating software code, facilitating salespeople in analyzing financial reports, and enhancing the search bar for Amazon shoppers. While some concepts are already in the prototyping stage, the extent of ChatGPT's involvement in Amazon's decision-making process, known as PRFAQ, remains uncertain. Amazon has cautioned employees to use the chatbot judiciously and avoid sharing confidential information.",
     link: 'https://www.businessinsider.com/leaked-amazon-document-employees-ideas-to-use-ai-chatbot-2023-6',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
   {
     image: 'tree-of-thought.jpg',
@@ -1203,15 +1202,15 @@ const contentData = [
     attribution: 'YouTube - Mathew Berman',
     body: '<b style="color: crimson;">VIDEO:</b> Google DeepMind and Princeton researchers have introduced a new approach called "Tree of Thoughts" to enhance the problem-solving abilities of large language models. Unlike traditional models that predict the next word in a sequence, Tree of Thoughts allows models to think through problems in multiple steps, exploring different paths to find the best solution. The method outperforms existing techniques and shows promise in logical, reasoning, and mathematical tasks. An implementation of Tree of Thoughts is available on GitHub for further exploration.',
     link: 'https://www.youtube.com/watch?v=xY42vbH_zCw',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
   {
-    image: 'xxx.jpg',
+    image: 'virtual-try-on.jpg',
     title: 'How AI makes virtual try-on more realistic',
     attribution: 'Google - Ira Kemelmacher-Shlizerman',
     body: "Google has developed a new AI model that enhances virtual try-on (VTO) experiences for apparel. The model uses diffusion, a process that gradually adds and removes pixels from an image, to generate high-quality, realistic depictions of clothing on different body shapes and sizes. Unlike previous techniques that produced imperfect results, the new model creates images that realistically adapt to the body, accounting for details like draping, folding, stretching, and wrinkling. By training the model with data from Google's Shopping Graph, the VTO feature can render tops on real models, offering users a more accurate representation of how the clothing will look on them.",
     link: 'https://blog.google/products/shopping/virtual-try-on-google-generative-ai/?utm_source=www.therundown.ai&utm_medium=newsletter&utm_campaign=google-revolutionizes-online-shopping-with-ai',
-    datePublished: '2023-06-23T15:00:00.000Z',
+    datePublished: '2023-06-26T15:00:00.000Z',
   },
 ]
 
